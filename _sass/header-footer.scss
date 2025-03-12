@@ -1,0 +1,42 @@
+/* Header styles with ASCII art */
+.site-header {
+    border-top: 5px solid #424242;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 15px 0;
+    position: relative;
+}
+
+
+.site-title {
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+
+.site-title::before {
+    content: "⟨ ";
+}
+
+.site-title::after {
+    content: " ⟩";
+}
+
+/* Main content styles */
+.page-content {
+    padding: 30px 0;
+}
+
+/* Footer with ASCII art */
+.site-footer {
+    border-top: 1px solid #e8e8e8;
+    padding: 20px 0;
+    position: relative;
+}
+
+.site-footer::before {
+    content: "✧ ✦ ✧ ";
+    display: block;
+    text-align: center;
+    font-family: monospace;
+    color: #828282;
+    margin-bottom: 20px;
+}
