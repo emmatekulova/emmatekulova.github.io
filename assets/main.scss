@@ -1,12 +1,15 @@
 ---
 ---
 
+/* Imports */
 @import "colors";
 @import "minima";
 @import "callouts";
 @import "header-footer";
 
-/* General Styles */
+/* ====================================
+   GENERAL STYLES & TYPOGRAPHY
+   ==================================== */
 body {
     font-family: "Courier New", Courier, monospace;
     line-height: 1.7;
@@ -15,7 +18,7 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Main Content */
+/* Main content wrapper */
 .page-content {
     padding: 2rem 0;
 }
@@ -27,7 +30,9 @@ body {
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.03);
 }
 
-/* Headings with Decorative Symbols */
+/* ====================================
+   HEADING STYLES WITH DECORATIVE ELEMENTS
+   ==================================== */
 h2::before {
     content: "✻ ";
     color: var(--primary-color);
@@ -43,7 +48,9 @@ h4::before {
     color: var(--primary-color);
 }
 
-/* Profile Section (ASCII-styled Frame) */
+/* ====================================
+   PROFILE SECTION WITH ASCII FRAMES
+   ==================================== */
 .profile-section {
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +78,7 @@ h4::before {
 .profile-section::after {
     content: "└───────────────────────┘";
     position: absolute;
-    bottom: -0.2rem;
+    bottom: 0.2rem;
     right: 1.5rem;
     color: var(--primary-color);
     font-weight: bold;
@@ -92,6 +99,9 @@ h4::before {
     min-width: 20rem;
 }
 
+/* ====================================
+   BLOG & POST LIST STYLING
+   ==================================== */
 /* Terminal-Like Text */
 .terminal-line {
     font-family: monospace;
@@ -122,6 +132,29 @@ h4::before {
     font-size: 1.1rem;
 }
 
+/* Custom List Styles */
+.post-content ul {
+    list-style: none;
+    margin-left: 1.5rem;
+}
+
+.post-content ul li {
+    position: relative;
+    margin-bottom: 0.4rem;
+    padding-left: 1.3rem;
+}
+
+.post-content ul li::before {
+    content: "✦ ";
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    font-size: 1rem;
+}
+
+/* ====================================
+   INTERACTIVE ELEMENTS
+   ==================================== */
 /* Fancy Button */
 .button {
     display: inline-block;
@@ -143,26 +176,6 @@ h4::before {
     transform: translateY(-2px);
 }
 
-/* Custom List Styles */
-.post-content ul {
-    list-style: none;
-    margin-left: 1.5rem;
-}
-
-.post-content ul li {
-    position: relative;
-    margin-bottom: 0.4rem;
-    padding-left: 1.3rem;
-}
-
-.post-content ul li::before {
-    content: "✦ ";
-    color: var(--primary-color);
-    position: absolute;
-    left: 0;
-    font-size: 1rem;
-}
-
 /* Theme toggle button */
 .theme-toggle {
     background: none;
@@ -176,11 +189,12 @@ h4::before {
     justify-content: center;
     font-size: 1.2rem;
     color: var(--primary-color);
-    position: absolute;
+    position: fixed; /* Change from absolute to fixed */
     right: 1rem;
-    top: 0.75rem;
+    top: 1rem;
     transition: all 0.3s ease;
     z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
 }
 
 .theme-toggle:hover {
@@ -201,7 +215,51 @@ h4::before {
     content: "☀";  /* Sun symbol for light mode toggle */
 }
 
-/* Code formatting */
+/* Return to top button */
+.return-to-top {
+    background-color: var(--content-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    transition: all 0.3s ease;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+}
+
+.return-to-top::after {
+    content: "↑";
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.return-to-top:hover {
+    background-color: var(--primary-color);
+    color: var(--content-bg-color);
+    transform: translateY(-5px);
+}
+
+.return-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* ====================================
+   CODE & SYNTAX HIGHLIGHTING
+   ==================================== */
 code {
     background-color: var(--code-bg-color);
     color: var(--code-text-color);
@@ -240,7 +298,9 @@ pre code {
     background-color: var(--code-bg-color);
 }
 
-/* Table styles */
+/* ====================================
+   TABLE STYLES
+   ==================================== */
 table {
     border-collapse: collapse;
     width: 100%;
@@ -252,7 +312,7 @@ table {
 
 th {
     background-color: var(--table-header-bg) !important;
-    color: white !important;
+    color: var(--text-color) !important;
     text-align: left;
     padding: 0.8rem;
     font-weight: bold;
@@ -265,7 +325,6 @@ td {
     color: var(--text-color);
 }
 
-/* More specific selectors and !important to override theme defaults */
 table tr {
     background-color: var(--content-bg-color) !important;
 }
