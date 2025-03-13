@@ -1,23 +1,23 @@
 /* Header styles with ASCII art */
 .site-header {
-    border-top: 5px solid #424242;
-    border-bottom: 1px solid #e8e8e8;
+    border-top: 5px solid var(--primary-color);
+    border-bottom: none;
     padding: 15px 0;
     position: relative;
 }
 
-
 .site-title {
     font-family: monospace;
     letter-spacing: 2px;
+    color: var(--primary-color);
 }
 
-.site-title::before {
-    content: "⟨ ";
+.site-title:visited {
+    color: var(--primary-color);
 }
 
-.site-title::after {
-    content: " ⟩";
+.site-nav .page-link {
+    color: var(--text-color);
 }
 
 /* Main content styles */
@@ -27,7 +27,7 @@
 
 /* Footer with ASCII art */
 .site-footer {
-    border-top: 1px solid #e8e8e8;
+    border-top: none;
     padding: 20px 0;
     position: relative;
 }
@@ -37,6 +37,6 @@
     display: block;
     text-align: center;
     font-family: monospace;
-    color: #828282;
+    color: var(--border-color);
     margin-bottom: 20px;
 }

@@ -1,0 +1,87 @@
+// colors.scss
+
+$light-bg: #f8f8f8;
+$light-header-bg: #ffffff;
+$light-footer-bg: #f5f5f5;
+$light-content-bg: #ffffff;
+$light-text: #222;
+$light-border: #e8e8e8;
+$light-primary: #2a7ae2;
+
+$dark-bg: #121212;
+$dark-header-bg: #1a1a1a;
+$dark-footer-bg: #1a1a1a;
+$dark-content-bg: #1e1e1e;
+$dark-text: #ddd;
+$dark-border: #444;
+$dark-primary: #4da6ff;
+
+:root {
+  --bg-color: #{$light-bg};
+  --header-bg-color: #{$light-header-bg};
+  --footer-bg-color: #{$light-footer-bg};
+  --content-bg-color: #{$light-content-bg};
+  --text-color: #{$light-text};
+  --border-color: #{$light-border};
+  --primary-color: #{$light-primary};
+
+  /* Code colors */
+  --code-bg-color: #f5f7fa;
+  --code-text-color: #476582;
+
+  /* Table colors - updated for better contrast */
+  --table-header-bg: var(--table-alt-row-bg); /* Darker blue header */
+  --table-header-text: rgb(46, 45, 45);
+  --table-alt-row-bg: rgba(0, 0, 0, 0.02); /* Subtle alternating rows */
+  --table-hover-bg: rgba(42, 122, 226, 0.05); /* Subtle hover effect */
+
+  /* Callout colors - Info */
+  --info-bg-color: #e8f4fd;
+  --info-border-color: #2a7ae2;
+  --info-title-color: #0366d6;
+
+  /* Callout colors - Warning */
+  --warning-bg-color: #fff8ea;
+  --warning-border-color: #f0ad4e;
+  --warning-title-color: #e08e0b;
+
+  /* Callout colors - Danger */
+  --danger-bg-color: #ffeeee;
+  --danger-border-color: #d9534f;
+  --danger-title-color: #b52b27;
+}
+
+[data-theme="dark"] {
+  --bg-color: #{$dark-bg};
+  --header-bg-color: #{$dark-header-bg};
+  --footer-bg-color: #{$dark-footer-bg};
+  --content-bg-color: #{$dark-content-bg};
+  --text-color: #{$dark-text};
+  --border-color: #{$dark-border};
+  --primary-color: #{$dark-primary};
+
+  /* Code colors - dark theme */
+  --code-bg-color: #282c34;
+  --code-text-color: #abb2bf;
+
+  /* Table colors - dark theme */
+  --table-header-bg: var(--table-alt-row-bg); /* Darker blue header for dark theme */
+  --table-header-text: white;
+  --table-alt-row-bg: rgba(255, 255, 255, 0.03); /* Subtle alternating rows */
+  --table-hover-bg: rgba(77, 166, 255, 0.1); /* Subtle hover effect */
+
+  /* Callout colors - Info - dark theme */
+  --info-bg-color: #1a2636;
+  --info-border-color: #4da6ff;
+  --info-title-color: #5ca8ff;
+
+  /* Callout colors - Warning - dark theme */
+  --warning-bg-color: #332c21;
+  --warning-border-color: #f0ad4e;
+  --warning-title-color: #ffba4d;
+
+  /* Callout colors - Danger - dark theme */
+  --danger-bg-color: #362626;
+  --danger-border-color: #d9534f;
+  --danger-title-color: #ff6b68;
+}

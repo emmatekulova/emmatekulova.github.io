@@ -1,121 +1,137 @@
 ---
 ---
 
+@import "colors";
 @import "minima";
 @import "callouts";
 @import "header-footer";
 
-/* Custom styles with ASCII art */
+/* General Styles */
 body {
     font-family: "Courier New", Courier, monospace;
-    line-height: 1.6;
-    color: #333;
+    line-height: 1.7;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Main content styles */
+/* Main Content */
 .page-content {
-    padding: 30px 0;
+    padding: 2rem 0;
 }
 
+.wrapper {
+    background-color: var(--content-bg-color);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.03);
+}
+
+/* Headings with Decorative Symbols */
 h2::before {
-    content: "✵ ";
-    color: #2a7ae2;
+    content: "✻ ";
+    color: var(--primary-color);
 }
 
 h3::before {
-    content: "✧ ";
-    color: #2a7ae2;
+    content: "❈ ";
+    color: var(--primary-color);
 }
 
 h4::before {
-    content: "⁕ ";
-    color: #2a7ae2;
+    content: "✱ ";
+    color: var(--primary-color);
 }
 
-/* Profile section with ASCII frame */
+/* Profile Section (ASCII-styled Frame) */
 .profile-section {
     display: flex;
     flex-wrap: wrap;
-    margin: 30px 0;
-    border: 1px solid #e8e8e8;
-    border-radius: 4px;
-    padding: 25px 20px 20px;
+    margin: 2rem 0;
+    padding: 3rem 1.25rem 1.5rem;
+    border: 2px solid var(--border-color);
+    border-radius: 0.5rem;
+    background: var(--content-bg-color);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
     position: relative;
 }
 
 .profile-section::before {
-    content: "┌───── About Me ─────┐";
+    content: "┌───── About Me ──────┐";
     position: absolute;
-    top: -10px;
-    left: 20px;
-    background: white;
-    padding: 0 10px;
+    top: 0.4rem;
+    left: 1.5rem;
     font-family: monospace;
-    color: #2a7ae2;
+    color: var(--primary-color);
+    font-weight: bold;
+    background-color: var(--content-bg-color);
+    padding: 0 0.5rem;
 }
 
 .profile-section::after {
-    content: "└─────────────────────┘";
+    content: "└───────────────────────┘";
     position: absolute;
-    bottom: -10px;
-    right: 20px;
-    background: white;
-    padding: 0 10px;
-    font-family: monospace;
-    color: #2a7ae2;
+    bottom: -0.2rem;
+    right: 1.5rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    background-color: var(--content-bg-color);
+    padding: 0 0.5rem;
 }
 
 .profile-image {
-    width: 180px;
+    width: 11rem;
     height: auto;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 1.5rem;
     box-shadow: 0 0 0 3px white, 0 0 0 5px #e8e8e8;
 }
 
 .profile-content {
     flex: 1;
-    min-width: 300px;
+    min-width: 20rem;
 }
 
-/* Terminal-like elements */
+/* Terminal-Like Text */
 .terminal-line {
     font-family: monospace;
     text-align: center;
-    color: #828282;
+    color: #666;
+    opacity: 0.8;
 }
 
-/* Post list decorations */
+/* Styled Post List */
 .post-list {
     margin-left: 0;
     list-style: none;
-    border-left: 2px dotted #e8e8e8;
-    padding-left: 20px;
+    border-left: 3px dotted #e8e8e8;
+    padding-left: 1.5rem;
 }
 
-.post-list>li {
-    margin-bottom: 30px;
+.post-list > li {
+    margin-bottom: 2rem;
     position: relative;
 }
 
-.post-list>li::before {
+.post-list > li::before {
     content: "○";
     position: absolute;
-    left: -26px;
-    color: #2a7ae2;
+    left: -1.8rem;
+    color: var(--primary-color);
     font-family: monospace;
+    font-size: 1.1rem;
 }
 
-/* Fancy button */
+/* Fancy Button */
 .button {
     display: inline-block;
-    padding: 8px 15px;
+    padding: 0.6rem 1rem;
     background-color: #333;
     color: white;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 0.3rem;
     font-family: monospace;
-    transition: all 0.3s ease;
+    transition: background 0.3s ease-in-out, transform 0.2s ease;
 }
 
 .button::before {
@@ -123,60 +139,145 @@ h4::before {
 }
 
 .button:hover {
-    background-color: #2a7ae2;
-    color: white;
-    text-decoration: none;
+    background-color: var(--primary-color);
+    transform: translateY(-2px);
 }
 
-/* Lists with custom markers */
+/* Custom List Styles */
 .post-content ul {
     list-style: none;
-    margin-left: 20px;
+    margin-left: 1.5rem;
 }
 
 .post-content ul li {
     position: relative;
-    margin-bottom: 5px;
+    margin-bottom: 0.4rem;
+    padding-left: 1.3rem;
 }
 
 .post-content ul li::before {
-    content: "✱ ";
-    color: #2a7ae2;
+    content: "✦ ";
+    color: var(--primary-color);
     position: absolute;
-    left: -20px;
+    left: 0;
+    font-size: 1rem;
 }
 
-/* Blockquote with fancy borders */
-blockquote {
-    border-left: 4px solid #2a7ae2;
-    padding-left: 15px;
-    color: #555;
-    position: relative;
-    font-style: italic;
-}
-
-blockquote::before {
-    content: "❝";
-    font-size: 2em;
-    color: #2a7ae2;
+/* Theme toggle button */
+.theme-toggle {
+    background: none;
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: var(--primary-color);
     position: absolute;
-    left: -30px;
-    top: -15px;
+    right: 1rem;
+    top: 0.75rem;
+    transition: all 0.3s ease;
+    z-index: 100;
 }
 
-/* Horizontal rule with ASCII art */
-hr {
+.theme-toggle:hover {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.theme-toggle:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--primary-color);
+}
+
+.theme-toggle[data-theme="light"]::after {
+    content: "☾";  /* Moon symbol for dark mode toggle */
+}
+
+.theme-toggle[data-theme="dark"]::after {
+    content: "☀";  /* Sun symbol for light mode toggle */
+}
+
+/* Code formatting */
+code {
+    background-color: var(--code-bg-color);
+    color: var(--code-text-color);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.3rem;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.9rem;
+}
+
+pre {
+    background-color: var(--code-bg-color);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    overflow-x: auto;
+    border: 1px solid var(--border-color);
+    margin: 1.5rem 0;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    color: var(--code-text-color);
+    font-size: 0.9rem;
     border: none;
-    height: auto;
-    margin: 30px 0;
-    text-align: center;
-    line-height: 1;
+    display: block;
+    line-height: 1.5;
 }
 
-hr::before {
-    content: "✧ ✵ ✦ ✳ ✴ ✵ ✶ ✷ ✧ ✵ ✦ ✳ ✴ ✵ ✶ ✷";
-    font-family: monospace;
-    color: #828282;
+.highlight {
+    background-color: var(--code-bg-color);
+    border-radius: 0.5rem;
+    margin: 1.5rem 0;
 }
 
+.highlighter-rouge .highlight {
+    background-color: var(--code-bg-color);
+}
 
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.5rem 0;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+th {
+    background-color: var(--table-header-bg) !important;
+    color: white !important;
+    text-align: left;
+    padding: 0.8rem;
+    font-weight: bold;
+    border: 1px solid var(--border-color);
+}
+
+td {
+    padding: 0.8rem;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+}
+
+/* More specific selectors and !important to override theme defaults */
+table tr {
+    background-color: var(--content-bg-color) !important;
+}
+
+table tr:nth-child(even) {
+    background-color: var(--table-alt-row-bg) !important;
+}
+
+table tr:nth-child(odd) {
+    background-color: var(--content-bg-color) !important;
+}
+
+table tr:hover {
+    background-color: var(--table-hover-bg) !important;
+}
