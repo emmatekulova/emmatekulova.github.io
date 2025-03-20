@@ -1,9 +1,13 @@
 ---
 layout: page
-title: Blog
+title: blog
 permalink: /blog/
+order: 2
 ---
 
+Comming soon!
+
+<!-- 
 <div class="home">
   {% if site.posts.size > 0 %}
   <h2 class="post-list-heading">{{ page.list_title | default: "All Posts" }}</h2>
@@ -17,4 +21,5 @@ permalink: /blog/
     {% endfor %}
   </ul>
   {% endif %}
-</div>
+</div> 
+-->
