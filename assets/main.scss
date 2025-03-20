@@ -1,11 +1,12 @@
----
+--- 
 ---
 
-/* Imports */
 @import "colors";
 @import "minima";
 @import "callouts";
 @import "header-footer";
+@import "projects";
+@import "cv";
 
 /* ====================================
    GENERAL STYLES & TYPOGRAPHY
@@ -33,21 +34,24 @@ body {
 /* ====================================
    HEADING STYLES WITH DECORATIVE ELEMENTS
    ==================================== */
-h2::before {
-    content: "✻ ";
-    color: var(--primary-color);
-}
+// h2::before {
+//     content: "✻ ";
+//     color: var(--primary-color);
+// }
 
-h3::before {
-    content: "❈ ";
-    color: var(--primary-color);
-}
+// h3::before {
+//     content: "❈ ";
+//     color: var(--primary-color);
+// }
 
-h4::before {
-    content: "✱ ";
-    color: var(--primary-color);
-}
+// h4::before {
+//     content: "✱ ";
+//     color: var(--primary-color);
+// }
 
+/* ====================================
+   PROFILE SECTION WITH ASCII FRAMES
+   ==================================== */
 /* ====================================
    PROFILE SECTION WITH ASCII FRAMES
    ==================================== */
@@ -64,7 +68,6 @@ h4::before {
 }
 
 .profile-section::before {
-    content: "┌───── About Me ──────┐";
     position: absolute;
     top: 0.4rem;
     left: 1.5rem;
@@ -76,7 +79,6 @@ h4::before {
 }
 
 .profile-section::after {
-    content: "└───────────────────────┘";
     position: absolute;
     bottom: 0.2rem;
     right: 1.5rem;
@@ -86,17 +88,82 @@ h4::before {
     padding: 0 0.5rem;
 }
 
+.profile-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
 .profile-image {
     width: 11rem;
     height: auto;
     border-radius: 50%;
-    margin-right: 1.5rem;
     box-shadow: 0 0 0 3px white, 0 0 0 5px #e8e8e8;
 }
 
 .profile-content {
     flex: 1;
     min-width: 20rem;
+}
+
+/* Social links styling */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8rem;
+    gap: 0.8rem;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    // background-color: var(--code-bg-color);
+    color: var(--text-color);
+    fill: var(--code-text-color);
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    border: 0px solid var(--border-color);
+}
+
+/* Icons in dark mode - make them white */
+[data-theme="dark"] .social-link img {
+    /* Filter to make icons white in dark mode */
+    filter: brightness(0) saturate(100%) invert(100%);
+}
+
+.social-link:hover {
+    color: var(--primary-color);
+    filter: brightness(0) saturate(100%) invert(50%) sepia(50%) saturate(1000%) hue-rotate(190deg) brightness(100%) contrast(95%);
+    transform: translateY(-3px);
+}
+
+.social-icon {
+    font-size: 1.2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .profile-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-left {
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .profile-content {
+        min-width: auto;
+    }
 }
 
 /* ====================================
@@ -118,12 +185,12 @@ h4::before {
     padding-left: 1.5rem;
 }
 
-.post-list > li {
+.post-list>li {
     margin-bottom: 2rem;
     position: relative;
 }
 
-.post-list > li::before {
+.post-list>li::before {
     content: "○";
     position: absolute;
     left: -1.8rem;
@@ -155,31 +222,38 @@ h4::before {
 /* ====================================
    INTERACTIVE ELEMENTS
    ==================================== */
-/* Fancy Button */
 .button {
     display: inline-block;
-    padding: 0.6rem 1rem;
-    background-color: #333;
-    color: white;
+    padding: 0.4rem 0.8rem;
+    /* Adjust padding to make buttons smaller */
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
     text-decoration: none;
     border-radius: 0.3rem;
     font-family: monospace;
-    transition: background 0.3s ease-in-out, transform 0.2s ease;
-}
-
-.button::before {
-    content: "⟫ ";
+    font-size: 0.9rem;
+    /* Adjust font size */
+    transition: all 0.3s ease;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    position: relative;
 }
 
 .button:hover {
-    background-color: var(--primary-color);
+    background-color: var(--button-hover-bg);
+    color: var(--content-bg-color);
     transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* Default arrow style */
+.button::before {
+    content: "⟫ ";
 }
 
 /* Theme toggle button */
 .theme-toggle {
     background: none;
-    border: 1px solid var(--border-color);
     border-radius: 50%;
     width: 2rem;
     height: 2rem;
@@ -188,13 +262,13 @@ h4::before {
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
-    color: var(--primary-color);
-    position: fixed; /* Change from absolute to fixed */
+    position: fixed;
+    /* Change from absolute to fixed */
     right: 1rem;
-    top: 1rem;
+    top: 4rem;
     transition: all 0.3s ease;
-    z-index: 100;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    border: none;
+    // box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
 }
 
 .theme-toggle:hover {
@@ -202,17 +276,16 @@ h4::before {
     color: var(--bg-color);
 }
 
-.theme-toggle:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px var(--primary-color);
+/* Theme icon styling */
+.theme-icon {
+    width: 1rem;
+    height: 1rem;
+    fill: currentColor;
 }
 
-.theme-toggle[data-theme="light"]::after {
-    content: "☾";  /* Moon symbol for dark mode toggle */
-}
-
-.theme-toggle[data-theme="dark"]::after {
-    content: "☀";  /* Sun symbol for light mode toggle */
+/* Dark mode icon color adjustment */
+[data-theme="dark"] .theme-icon {
+    filter: brightness(0) saturate(100%) invert(100%);
 }
 
 /* Return to top button */
@@ -339,4 +412,112 @@ table tr:nth-child(odd) {
 
 table tr:hover {
     background-color: var(--table-hover-bg) !important;
+}
+
+/* ====================================
+   CARDS
+==================================== */
+/* General card styling */
+.card {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    background-color: var(--content-bg-color);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    margin-bottom: 1rem;
+}
+
+.card-header h3 {
+    margin-bottom: 0.3rem;
+    font-size: 1.3rem;
+}
+
+.card-meta {
+    font-family: monospace;
+    color: var(--secondary-text-color);
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.card-tags {
+    margin: 1rem 0;
+}
+
+.card-links {
+    margin-top: 1.5rem;
+}
+
+.card-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: var(--primary-color);
+    font-family: monospace;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+/* ====================================
+   TAGS
+==================================== */
+
+.tag {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.3rem;
+    background-color: var(--code-bg-color);
+    color: var(--secondary-text-color);
+    font-size: 0.8rem;
+}
+
+/* ====================================
+MOBILE NAVIGATION MENU THEMING
+==================================== */
+@media screen and (max-width: 600px) {
+    .site-nav {
+        background-color: var(--content-bg-color);
+        border: 1px solid var(--border-color);
+    }
+
+    .site-nav .menu-icon>svg {
+        fill: var(--text-color);
+    }
+
+    .site-nav .page-link {
+        color: var(--text-color);
+    }
+
+    .site-nav input~.trigger {
+        background-color: var(--content-bg-color);
+    }
+
+    .site-nav label[for="nav-trigger"] {
+        border: 1px solid var(--border-color);
+        border-radius: 5px;
+        background-color: var(--content-bg-color);
+    }
+}
+
+/* Ensure theme toggler remains visible on mobile */
+@media screen and (max-width: 600px) {
+    .theme-toggle {
+        top: 1rem;
+        right: 5rem;
+        /* Position it to the left of the hamburger menu */
+        width: 1.8rem;
+        height: 1.8rem;
+    }
 }
