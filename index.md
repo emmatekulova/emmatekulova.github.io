@@ -1,7 +1,6 @@
 ---
 layout: page
 ---
-
 <div class="profile-section">
   <div class="profile-left">
     <img src="assets/images/profile.jpg" class="profile-image" alt="Profile Image">
@@ -20,20 +19,22 @@ layout: page
       </a>
     </div>
   </div>
-  
+
   <div class="profile-content">
-    <h3>About Me</h3>
+    <!-- <h3>About Me</h3> -->
+    <p>
+      I am doing a <b>master's degree in Theoretical Computer Science</b> at Charles University in Prague and am currently a visiting student at TU Munich. My bachelor's thesis focused on <b>zero-knowledge proofs</b>, and I continue to explore this area.
+    </p>
     <p class="card-tags">
-            <span class="tag">Cryptograhy</span>
-            <span class="tag">Complexity</span>
-            <span class="tag">Combinatorics</span>
-        </p>
-    <p>I am doing studying master's degree in Theoretical Computer Science at Charles University in Prague. Currently I am a visiting student at TU Munich.</p>
+      <span class="tag">Cryptograhy</span>
+      <span class="tag">Complexity</span>
+      <span class="tag">Combinatorics</span>
+    </p>
   </div>
 </div>
 
-
-<!-- <h2>Recent Posts</h2>
+<!-- 
+<h2>Recent Posts</h2>
 
 <ul class="post-list">
   {% for post in site.posts limit:2 %}
