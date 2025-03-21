@@ -31,10 +31,11 @@ github_username:  benbencik
 
 # Site navigation pages
 header_pages:
-  - blog.md
   - cv.md
-  - projects.md
+  - blog.md
   - talks.md
+  - projects.md
+  - research.md
   - kalna-voda.md
 
 # Build settings
