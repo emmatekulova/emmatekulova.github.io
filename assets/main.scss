@@ -490,6 +490,9 @@ MOBILE NAVIGATION MENU THEMING
     .site-nav {
         background-color: var(--content-bg-color);
         border: 1px solid var(--border-color);
+        top: 3rem;
+        right: 1rem;
+        z-index: 200;
     }
 
     .site-nav .menu-icon>svg {
@@ -514,10 +517,15 @@ MOBILE NAVIGATION MENU THEMING
 /* Ensure theme toggler remains visible on mobile */
 @media screen and (max-width: 600px) {
     .theme-toggle {
-        top: 1rem;
-        right: 5rem;
-        /* Position it to the left of the hamburger menu */
-        width: 1.8rem;
-        height: 1.8rem;
+        position: absolute;
+        top: 3.25rem;
+        right: 4rem;
+        z-index: 200;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body, .content-wrapper {
+        background-color: var(--content-bg-color); /* Set to your preferred color */
     }
 }
