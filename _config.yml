@@ -36,7 +36,6 @@ header_pages:
   - talks.md
   - projects.md
   - research.md
-  - kalna-voda.md
 
 # Build settings
 theme: minima
