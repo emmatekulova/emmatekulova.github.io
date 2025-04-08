@@ -20,6 +20,11 @@
     color: var(--text-color);
 }
 
+// Moves menu items to the left
+.trigger {
+    padding-right: 30px;
+}
+
 /* Main content styles */
 .page-content {
     padding: 30px 0;

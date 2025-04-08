@@ -262,13 +262,11 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
-    position: fixed;
-    /* Change from absolute to fixed */
-    right: 1.5rem;
-    top: 1.5rem;
+    position: relative;
+    top: 0.6rem;
+    left: 34rem;
     transition: all 0.3s ease;
     border: none;
-    // box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
 }
 
 .theme-toggle:hover {
@@ -517,7 +515,7 @@ MOBILE NAVIGATION MENU THEMING
 /* Ensure theme toggler remains visible on mobile */
 @media screen and (max-width: 600px) {
     .theme-toggle {
-        position: absolute;
+        position: relative;
         top: 3.25rem;
         right: 4rem;
         z-index: 200;
