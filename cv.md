@@ -7,13 +7,16 @@ order: 1
 
 ### Education
 
-**Informatics Visiting Student**<br>
+<!-- **Informatics Visiting Student**<br>
 *Technical University Munich • Munich, Germany 🇩🇪 10/2024 - 10/2025*
 
 ---
 
 **Master in Theoretical Computer Science**<br>
-*Charles University • Prague, Czech Republic 🇨🇿 09/2024 - Present*
+*Charles University • Prague, Czech Republic 🇨🇿 09/2024 - Present* -->
+
+**Master in Theoretical Computer Science**
+*Technical University Munich • Munich, Germany 🇩🇪 10/2024 - Present*
 
 ---
 
