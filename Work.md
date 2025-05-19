@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /Work/
-title: Work
+permalink: /work/
+title: work
 ---
 
 
