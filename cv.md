@@ -7,60 +7,78 @@ order: 1
 
 ### Education
 
-<!-- **Informatics Visiting Student**<br>
-*Technical University Munich • Munich, Germany 🇩🇪 10/2024 - 10/2025*
+**Bioinformatics (BSc)**  
+*University of Chemistry and Technology • Prague, Czech Republic 🇨🇿 09/2023 – 06/2025*
 
 ---
 
-**Master in Theoretical Computer Science**<br>
-*Charles University • Prague, Czech Republic 🇨🇿 09/2024 - Present* -->
-
-**Master in Theoretical Computer Science**
-*Technical University Munich • Munich, Germany 🇩🇪 10/2024 - Present*
-
----
-
-**Bachelor of Computer Science**<br>
-*Charles University • Prague, Czech Republic 🇨🇿 10/2021 - 09/2024<br>*
-Thesis: [On PlonK SNARK](/research#reducing-polynomial-degree-in-plonk-zksnark)
-
-<div style="text-align: center; margin: 15px 0;">• • •</div>
-
-### Organizations
-
-**Education & Research Team**<br>
-*[TUM Blockchain Club](https://www.tum-blockchain.com/) • Munich, Germany 🇩🇪 10/2024 - Present*
-
----
-
-
-**Event Organizer**<br>
-*[TEDxYouth](https://www.ted.com/tedx/events/22149) • Bratislava, Slovakia 🇸🇰 07/2019 - 03/2021*
+**Chemistry (BSc - unfinished)**  
+*University of Chemistry and Technology • Prague, Czech Republic 🇨🇿 09/2022 – 06/2023*
 
 
 <div style="text-align: center; margin: 15px 0;">• • •</div>
 
 ### Work Experience
 
-**ZK Cryptography Intern Engineer**<br>
-*[MAYA-ZK](https://www.maya-zk.com/) • Prague, Czech Republic 🇨🇿 09/2022 - 09/2024<br>*
-At MAYA-ZK, I worked on the development of zero-knowledge protocols. My primary focus was on the software side, optimizing and fine-tuning Rust implementation of PLONK zkSNARK.
+**Junior Scientific Researcher – Computer Vision Focus**  
+*Nuclear Research Institute • Prague, Czech Republic 🇨🇿 08/2023 – Present*  
+- Computer vision and machine learning techniques 
+- Accelerating analysis and decision-making through efficient application of computer vision in research applications
 
 ---
 
-**Automation Intern Engineer**<br>
-*[ComAp](https://www.comap-control.com/) • Prague, Czech Republic 🇨🇿<br>*
-04/2019 - 09/2021<br>
-Offered the internship after securing 2nd place at a [UnIT Hackathon](https://unit.bestprague.cz/). Developed and maintained a Python-based testing environment for control solutions in smart power generation.
+**Computational Chemist**  
+*Institute of Organic Chemistry and Biochemistry • Prague, Czech Republic 🇨🇿 09/2022 – 10/2023*  
+- Exploring and analyzing the properties of diverse helicenes  
+- Utilized Gaussian, VMD, Molden, Avogadro, and QuantumATK for simulation and examination
 
 ---
 
-**Application Programmer**<br>
-*[AeroMobil](https://www.aeromobil.com/) • Bratislava, Slovakia 🇸🇰<br>*
-01/2018 - 03/2019<br>
-I contributed to the development and prototyping of the flying car. As a programmer, I worked on applications calculating physics simulations for stress analysis of mechanical components.
+**Organic Chemist (Internship)**  
+*Institute of Organic Chemistry and Biochemistry • Prague, Czech Republic 🇨🇿 06/2022 – 08/2022*  
+- Organic synthesis involving the preparation of a specific type of helicene
+
 
 <div style="text-align: center; margin: 15px 0;">• • •</div>
 
+### Organizations
+
+**Event Organizer – Head of Legal Team**  
+*TEDxYouth@Bratislava • Bratislava, Slovakia 🇸🇰 05/2018 – 08/2020*  
+- Oversaw licensing and compliance for 300+ participants
+
+---
+
+**Competition Author & Reviewer**  
+*KSICHT Chemistry Competition • Prague, Czech Republic 🇨🇿 09/2022 – 12/23*  
+- Correspondence seminar focused on chemistry for high school students  
+- Authored and reviewed competition problems
+
+<div style="text-align: center; margin: 15px 0;">• • •</div>
+
+### Honours and Awards
+
+- **Student Scientific Conference** – University of Chemistry and Technology, Prague 🇨🇿 28/11/2024  
+  *Presented my bachelor thesis research among other outstanding student projects.*
+
+- **Chemistry Olympiad – National Round** 🇸🇰 03/2022 – *5th place*  
+- **Chemistry Olympiad – National Round** 🇸🇰 03/2021 – *10th place*  
+- **IBIS Biology Competition** 🇸🇰 06/2021 – *2nd place*  
+- **Chemiklání Chemistry Team Competition** 🇨🇿 02/2022 – *4th place* (Team Captain)
+
+<div style="text-align: center; margin: 15px 0;">• • •</div>
+
+### Conferences & Seminars
+
+**AIProHealth Summer School**  
+*Tartu, Estonia 🇪🇪 12/08/2024 – 30/08/2024*  
+- Participated in AIProHealth summer school focused on AI innovation in healthcare  
+- Developed a digital medical device prototype; secured **2nd place** in the hackathon  
+- Gained hands-on experience with EU regulations and built valuable connections  
+- [AIProHealth Program Link](https://eithealth.eu/programmes/aiprohealth/)
+
+<div style="text-align: center; margin: 15px 0;">• • •</div>
+
+
 ### [Projects](/projects)
-View my technical projects and hackathon participations at projects page.
+For more details about the projects I've worked on, visit the projects page.
