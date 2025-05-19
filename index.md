@@ -5,30 +5,22 @@ layout: page
   <div class="profile-left">
     <img src="assets/images/profile.jpg" class="profile-image" alt="Profile Image">
     <div class="social-links">
-      <a href="https://linkedin.com/in/benbencik/" class="social-link" target="_blank" aria-label="LinkedIn">
+      <a href="https://linkedin.com/in/emma-tekulova/" class="social-link" target="_blank" aria-label="LinkedIn">
         <img src="assets/icons/brand-linkedin.svg" alt="LinkedIn" width="24" height="24">
       </a>
-      <a href="mailto:bencikben@gmail.com" class="social-link" aria-label="Email">
+      <a href="mailto:emmateki@gmail.com" class="social-link" aria-label="Email">
         <img src="assets/icons/mail.svg" alt="Email" width="24" height="24">
       </a>
-      <a href="https://github.com/benbencik" class="social-link" aria-label="GitHub">
+      <a href="https://github.com/emmatekulova" class="social-link" aria-label="GitHub">
         <img src="assets/icons/brand-github.svg" alt="GitHub" width="24" height="24">
       </a>
-      <a href="https://soundcloud.com/kalnavoda" class="social-link" aria-label="SoundCloud">
-        <img src="assets/icons/brand-soundcloud.svg" alt="SoundCloud" width="24" height="24">
-      </a>
-    </div>
+
   </div>
 
   <div class="profile-content">
     <!-- <h3>About Me</h3> -->
     <p>
-      I am doing a <b>master's degree in Theoretical Computer Science</b> at Charles University in Prague and am currently a visiting student at TU Munich. My bachelor's thesis focused on <b>zero-knowledge proofs</b>, and I continue to explore this area.
-    </p>
-    <p class="card-tags">
-      <span class="tag">Cryptograhy</span>
-      <span class="tag">Complexity</span>
-      <span class="tag">Combinatorics</span>
+    I’m currently a <b>bachelor’s student in bioinformatics</b>, with a background in <b>chemistry</b>. I started out in the lab, but through my work as a <b>computational chemist</b>, I discovered a passion for programming and data. Now I’m diving into <b>computer vision</b> in <b>nuclear research</b>, and slowly transitioning more into <b>informatics</b>. I'm curious by nature and love when <b>biology, chemistry, and machine learning</b> come together.
     </p>
   </div>
 </div>
