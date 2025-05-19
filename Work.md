@@ -39,7 +39,7 @@ The project was developed as part of my work at the Nuclear Research Institute i
 
 <br>
 
-### Computational Chemistry – Racemization of n-Helicenes
+### Racemization of n-Helicenes
 
 I worked on the racemization properties of several helicenes, including <b>pentahelicene</b>, <b>hexahelicene</b>, <b>heptahelicene</b>, and <b>dinaphtho[5]helicene</b>. My research focused on calculating <b>racemization barriers</b>, identifying <b>transition states</b>, and analyzing <b>IR spectra</b>.
 
