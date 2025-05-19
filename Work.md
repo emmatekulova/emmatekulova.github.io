@@ -22,14 +22,14 @@ A major part of the work involved building a custom dataset from scratch, as no 
 ---
 
 
-### nanoindent growth measurements web app
+### Nanoindent growth measurements web app
 
 This Python-based project focuses on processing image pairs—typically “before” and “after” shots—to analyze changes in a grid-like structure. It calculates the elongation and width differences of grid elements between the two images, providing insights into material deformation. The final work was integrated into a web-app.
 
 The project was developed as part of my work at the Nuclear Research Institute in Řež and aims to assist in nanoindentation experiments through automated analysis.
     
 <div class="button-container">
-  <a href="https://github.com/emmatekulova/nanoindent_growth_measurments1/" class="button">Github Repo</a>
+  <a href="https://github.com/emmatekulova/nanoindent_growth_measurments/" class="button">Github Repo</a>
 
 </div>
 
