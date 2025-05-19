@@ -5,7 +5,7 @@ title: research
 ---
 
 
-### Memory-query Tradeoffs for Property Testing
+### Memory-query Tradeoffs for Property Testing 
 
 Project done as part of the DIMACS [REU program](https://reu.dimacs.rutgers.edu/) at Rutgers University 🇺🇸 on Summer 2024.
 
