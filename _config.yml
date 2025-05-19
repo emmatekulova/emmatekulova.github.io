@@ -31,7 +31,7 @@ github_username:  emmatekulova
 # Site navigation pages
 header_pages:
   - cv.md
-  - blog.md
+ # - blog.md
   - Work.md
   - projects.md
 

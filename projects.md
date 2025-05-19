@@ -35,7 +35,7 @@ function toggleDescription(id) {
         </p>
         <div id="aiprohealthDesc" style="display: none;">
             <p>
-                Participated in the AIProHealth summer school focused on advancing AI solutions in healthcare. As part of a team, we developed a digital medical device prototype and secured 2nd place in the final hackathon. The program provided hands-on insight into EU regulations and fostered interdisciplinary collaboration between students across Europe.
+                Participated in the AIProHealth summer school focused on advancing AI solutions in healthcare. As part of an interdisciplinary team, we developed a prototype of a digital medical device aimed at helping doctors predict early onset preeclampsia in pregnant women — potentially reducing healthcare costs and saving lives. I was responsible for the technical aspects of the machine learning model. 
             </p>
             <div class="card-links">
                 <a href="https://eithealth.eu/programmes/aiprohealth/" class="button" target="_blank">Program Info</a>
@@ -55,7 +55,7 @@ function toggleDescription(id) {
         </p>
         <div id="sscDesc" style="display: none;">
             <p>
-                Presented my bachelor thesis research at the annual Student Scientific Conference alongside top student projects from across the university. The event emphasized scientific communication and peer exchange in the context of academic research.
+                Presented my bachelor thesis research at the annual Student Scientific Conference alongside top student projects from across the university in my fiels.
             </p>
         </div>
     </div>
