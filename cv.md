@@ -80,7 +80,7 @@ order: 1
 <div style="text-align: center; margin: 15px 0;">• • •</div>
 
 
-### [work](/wprk)
+### [work](/work)
 For more details about the projects I've worked on, visit the work page.
 
 
