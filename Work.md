@@ -14,7 +14,9 @@ A major part of the work involved building a custom dataset from scratch, as no 
     
 <div class="button-container">
   <a href="https://github.com/emmatekulova/coating_detection" class="button">Github Repo</a>
+  <!-- 
   <a href="/assets/reports/thesis.pdf" class="button">Thesis</a>
+ -->
 
 </div>
 
