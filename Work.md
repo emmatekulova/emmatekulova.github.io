@@ -43,5 +43,5 @@ The project was developed as part of my work at the Nuclear Research Institute i
 
 I worked on the racemization properties of several helicenes, including <b>pentahelicene</b>, <b>hexahelicene</b>, <b>heptahelicene</b>, and <b>dinaphtho[5]helicene</b>. My research focused on calculating <b>racemization barriers</b>, identifying <b>transition states</b>, and analyzing <b>IR spectra</b>.
 
-Along the way, I gained experience with tools like <b>Gaussian</b>, <b>VMD</b>, <b>Avogadro</b>, <b>ModRefiner</b>, and <b>QuantumATK</b> for molecular modeling and simulation.
+Along the way, I gained experience with tools like <b>Gaussian</b>, <b>VMD</b>, <b>Avogadro</b> and <b>QuantumATK</b> for molecular modeling and simulation.
 <div class="button-container"> <a href="/assets/presentations/uochb_presentation.pdf" class="button">Mid-Project Presentation</a> </div>
