@@ -6,6 +6,10 @@ order: 1
 ---
 
 ### Education
+**Infortmatics-Artificial Inteligence (Msc)**  
+*Charlse Univeristy • Prague, Czech Republic 🇨🇿 09/2025 – 06/2027*
+
+---
 
 **Bioinformatics (BSc)**  
 *University of Chemistry and Technology • Prague, Czech Republic 🇨🇿 09/2023 – 06/2025*
@@ -43,16 +47,16 @@ order: 1
 
 ### Organizations
 
-**Event Organizer – Head of Legal Team**  
-*TEDxYouth@Bratislava • Bratislava, Slovakia 🇸🇰 05/2018 – 08/2020*  
-- Oversaw licensing and compliance for 300+ participants
-
----
-
 **Competition Author & Reviewer**  
 *KSICHT Chemistry Competition • Prague, Czech Republic 🇨🇿 09/2022 – 12/23*  
 - Correspondence seminar focused on chemistry for high school students  
 - Authored and reviewed competition problems
+---
+
+
+**Event Organizer – Head of Legal Team**  
+*TEDxYouth@Bratislava • Bratislava, Slovakia 🇸🇰 05/2018 – 08/2020*  
+- Oversaw licensing and compliance for 300+ participants
 
 <div style="text-align: center; margin: 15px 0;">• • •</div>
 
@@ -60,11 +64,11 @@ order: 1
 
 - **Student Scientific Conference** – University of Chemistry and Technology, Prague 🇨🇿 28/11/2024  
   *Presented my bachelor thesis research among other outstanding student projects.*
-
 - **Chemistry Olympiad – National Round** 🇸🇰 03/2022 – *5th place*  
+- **Chemiklání Chemistry Team Competition** 🇨🇿 02/2022 – *4th place* (Team Captain)
 - **Chemistry Olympiad – National Round** 🇸🇰 03/2021 – *10th place*  
 - **IBIS Biology Competition** 🇸🇰 06/2021 – *2nd place*  
-- **Chemiklání Chemistry Team Competition** 🇨🇿 02/2022 – *4th place* (Team Captain)
+
 
 <div style="text-align: center; margin: 15px 0;">• • •</div>
 

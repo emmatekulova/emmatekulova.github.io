@@ -20,7 +20,7 @@ layout: page
   <div class="profile-content">
     <!-- <h3>About Me</h3> -->
     <p>
-    I’m currently a <b>bachelor’s student in bioinformatics</b>, with a background in <b>chemistry</b>. I started out in the lab, but through my work as a <b>computational chemist</b>, I discovered a passion for programming and data. Now I’m diving into <b>computer vision</b> in <b>nuclear research</b>, and slowly transitioning more into <b>informatics</b>. I love when <b>biology, chemistry, and machine learning</b> come together.
+    I’m currently pursuing a <b>Master’s degree in Artificial Intelligence at Charles University in Prague</b>, with a Bachelor's degree in Bioinformatics and a background in <b>Chemistry</b>. I started out in the lab, but through my work as a <b>computational chemist</b>, I discovered a passion for programming and data. Now I’m diving into <b>computer vision</b> in <b>nuclear research</b>, and slowly transitioning more into <b>informatics</b>. I love when <b>biology, chemistry, and machine learning</b> come together.
     </p>
   </div>
 </div>
