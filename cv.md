@@ -49,8 +49,9 @@ order: 1
 
 **Competition Author & Reviewer**  
 *KSICHT Chemistry Competition • Prague, Czech Republic 🇨🇿 09/2022 – 12/23*  
-- Correspondence seminar focused on chemistry for high school students  
-- Authored and reviewed competition problems
+- Correspondence seminar focused on chemistry for high school students
+- Authored and reviewed competition problems  
+  [View sample problem (PDF)](https://ksicht.natur.cuni.cz/media/rocniky/zadani/KSICHT-22-1_final.pdf)
 
 ---
 
