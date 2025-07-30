@@ -64,7 +64,6 @@ order: 1
 ### Honours and Awards
 
 - **Student Scientific Conference** – University of Chemistry and Technology, Prague 🇨🇿 28/11/2024  
-  *Presented my bachelor thesis research among other outstanding student projects.*
 - **Chemistry Olympiad – National Round** 🇸🇰 03/2022 – *5th place*  
 - **Chemiklání Chemistry Team Competition** 🇨🇿 02/2022 – *4th place* (Team Captain)
 - **Chemistry Olympiad – National Round** 🇸🇰 03/2021 – *10th place*  
