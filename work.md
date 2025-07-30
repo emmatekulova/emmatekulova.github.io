@@ -20,6 +20,14 @@ A major part of the work involved building a custom dataset from scratch, as no 
 
 </div>
 
+<div class="button-container">
+  <a href="https://github.com/emmatekulova/Automation_of_coating_measurement_process" class="button">Bachelor Thesis</a>
+  <!-- 
+  <a href="/assets/reports/thesis.pdf" class="button">Thesis</a>
+ -->
+
+</div>
+
 <br>
 ---
 
