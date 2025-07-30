@@ -51,8 +51,8 @@ order: 1
 *KSICHT Chemistry Competition • Prague, Czech Republic 🇨🇿 09/2022 – 12/23*  
 - Correspondence seminar focused on chemistry for high school students  
 - Authored and reviewed competition problems
----
 
+---
 
 **Event Organizer – Head of Legal Team**  
 *TEDxYouth@Bratislava • Bratislava, Slovakia 🇸🇰 05/2018 – 08/2020*  

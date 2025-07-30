@@ -47,7 +47,7 @@ function toggleDescription(id) {
 <div class="card" onclick="toggleDescription('sscDesc')">
         <div class="card-header">
             <h3>Student Scientific Conference</h3>
-            <div class="card-meta">University of Chemistry and Technology, Prague 🇨🇿 • 28/11/2024</div>
+            <div class="card-meta">University of Chemistry and Technology, Prague 🇨🇿 • 28/11/2024 <span class="project-award">🥇 1nd Place</span></div>
         </div>
         <p class="card-tags">
             <span class="tag">Scientific Presentation</span>
