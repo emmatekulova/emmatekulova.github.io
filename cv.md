@@ -5,43 +5,133 @@ permalink: /cv/
 order: 1
 ---
 
+<style>
+    .cv-entry {
+    margin-bottom: 1em;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 1em;
+}
+
+.cv-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cv-heading-text {
+    flex: 1;
+    padding-right: 0.5em;
+}
+
+.cv-subheading {
+    font-size: 0.9rem;
+    /* color: var(--); */
+}
+
+.cv-img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    /* padding: 8px; */
+    border-radius: 8px;
+    border: 3px solid var(--border-color);
+    // filter: grayscale(100%) brightness(0.9) sepia(0.2) invert(0.8);
+    // box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    // transition: all 0.3s ease;
+}
+
+.cv-description {
+    margin-top: 0.5em;
+}
+</style>
+
+
 ### Education
-**Infortmatics-Artificial Inteligence (Msc)**  
-*Charlse Univeristy • Prague, Czech Republic 🇨🇿 09/2025 – 06/2027*
+<div class="cv-entry">
+    <div class="cv-heading">
+        <div class="cv-heading-text">
+            <strong>Informatics – Artificial Intelligence (MSc)</strong><br>
+            <span class="cv-subheading">
+                <a href="https://www.cuni.cz/en">Charles University</a> • 09/2025 – 06/2027<br>
+                Prague, Czech Republic 🇨🇿
+            </span>
+        </div>
+        <img src="../assets/images/charles-uni.jpg" class="cv-img" alt="Charles University">
+    </div>
+</div>
 
----
+<div class="cv-entry">
+    <div class="cv-heading">
+        <div class="cv-heading-text">
+            <strong>Bioinformatics (BSc)</strong><br>
+            <span class="cv-subheading">
+                <a href="https://www.vscht.cz/en">University of Chemistry and Technology</a> • 09/2023 – 06/2025<br>
+                Prague, Czech Republic 🇨🇿
+            </span>
+        </div>
+        <img src="../assets/images/logoVSCHT_zkr_zakl.jpg" class="cv-img" alt="University of Chemistry and Technology">
+    </div>
+</div>
 
-**Bioinformatics (BSc)**  
-*University of Chemistry and Technology • Prague, Czech Republic 🇨🇿 09/2023 – 06/2025*
-
----
-
-**Chemistry (BSc - unfinished)**  
-*University of Chemistry and Technology • Prague, Czech Republic 🇨🇿 09/2022 – 06/2023*
-
+<div class="cv-entry">
+    <div class="cv-heading">
+        <div class="cv-heading-text">
+            <strong>Chemistry (BSc, unfinished)</strong><br>
+            <span class="cv-subheading">
+                <a href="https://www.vscht.cz/en">University of Chemistry and Technology</a> • 09/2022 – 06/2023<br>
+                Prague, Czech Republic 🇨🇿
+            </span>
+        </div>
+        <img src="../assets/images/vscht.jpg" class="cv-img" alt="University of Chemistry and Technology">
+    </div>
+</div>
 
 <div style="text-align: center; margin: 15px 0;">• • •</div>
 
+
 ### Work Experience
 
-**Junior Scientific Researcher – Computer Vision Focus**  
-*Nuclear Research Institute • Prague, Czech Republic 🇨🇿 08/2023 – Present*  
-- Computer vision and machine learning techniques 
-- Accelerating analysis and decision-making through efficient application of computer vision in research applications
+<div class="cv-entry">
+    <div class="cv-heading">
+        <div class="cv-heading-text">
+            <strong>Junior Scientific Researcher – Computer Vision Focus</strong><br>
+            <span class="cv-subheading">
+                <a href="https://www.cvrez.cz/en">Nuclear Research Institute - Research Centre Řež</a> • 08/2023 – Present<br>
+                Prague, Czech Republic 🇨🇿
+            </span>
+        </div>
+        <img src="../assets/images/cvr.jpg" class="cv-img" alt="Nuclear Research Institute">
+    </div>
+    In this role, I develop computer vision and machine learning solutions to accelerate analysis and support decision-making in research applications.
+</div>
 
----
+<div class="cv-entry">
+    <div class="cv-heading">
+        <div class="cv-heading-text">
+            <strong>Computational Chemist</strong><br>
+            <span class="cv-subheading">
+                <a href="https://www.uochb.cz/en">Institute of Organic Chemistry and Biochemistry</a> • 09/2022 – 10/2023<br>
+                Prague, Czech Republic 🇨🇿
+            </span>
+        </div>
+        <img src="../assets/images/uochb_logo.jpg" class="cv-img" alt="Institute of Organic Chemistry and Biochemistry">
+    </div>
+    Focused on exploring and analyzing the properties of diverse helicenes using tools such as Gaussian, VMD, Molden, Avogadro, and QuantumATK for simulation and examination.
+</div>
 
-**Computational Chemist**  
-*Institute of Organic Chemistry and Biochemistry • Prague, Czech Republic 🇨🇿 09/2022 – 10/2023*  
-- Exploring and analyzing the properties of diverse helicenes  
-- Utilized Gaussian, VMD, Molden, Avogadro, and QuantumATK for simulation and examination
-
----
-
-**Organic Chemist (Internship)**  
-*Institute of Organic Chemistry and Biochemistry • Prague, Czech Republic 🇨🇿 06/2022 – 08/2022*  
-- Organic synthesis involving the preparation of a specific type of helicene
-
+<div class="cv-entry">
+    <div class="cv-heading">
+        <div class="cv-heading-text">
+            <strong>Organic Chemist (Internship)</strong><br>
+            <span class="cv-subheading">
+                <a href="https://www.uochb.cz/en">Institute of Organic Chemistry and Biochemistry</a> • 06/2022 – 08/2022<br>
+                Prague, Czech Republic 🇨🇿
+            </span>
+        </div>
+        <img src="../assets/images/uochb_logo.jpg" class="cv-img" alt="Institute of Organic Chemistry and Biochemistry">
+    </div>
+    Conducted organic synthesis focused on the preparation of specific helicenes as part of a hands-on research internship.
+</div>
 
 <div style="text-align: center; margin: 15px 0;">• • •</div>
 
