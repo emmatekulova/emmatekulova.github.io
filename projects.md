@@ -24,6 +24,31 @@ function toggleDescription(id) {
 
 <div class="projects-section">
 
+<div class="card" onclick="toggleDescription('efmevDesc')">
+    <div class="card-header">
+        <h3>Ethereum Foundation Research Challenge x TUM Blockchain Conference</h3>
+        <div class="card-meta">
+            Munich, Germany 🇩🇪 • 12/09/2025 • 
+            <span class="project-award">🏅 Honorary Mention</span>
+        </div>
+    </div>
+    <p class="card-tags">
+        <span class="tag">Blockchain</span>
+        <span class="tag">Data analysis</span>
+        <span class="tag">MEV Analysis</span>
+        <span class="tag">Ethereum</span>
+    </p>
+    <div id="efmevDesc" style="display: none;">
+        <p>
+            Explored the characteristics of **sandwich attacks** on the Ethereum blockchain. Gained hands-on experience with blockchain data analysis, understanding MEV concepts, the mempool, gas fees, and transaction ordering.
+        </p>
+        <div class="card-links">
+            <a href="https://apply.tum-blockchain.com/ef-research-challenge" class="button" target="_blank">Program Info</a>
+            <a href="https://github.com/emmatekulova/EF-Research-Challenge-x-TUM-Blockchain-Club/tree/main" class="button" target="_blank">GitHub Repo</a>
+        </div>
+    </div>
+</div>
+
 <div class="card" onclick="toggleDescription('sscDesc')">
     <div class="card-header">
         <h3>Student Scientific Conference</h3>
