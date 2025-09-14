@@ -82,7 +82,7 @@ order: 1
                 Prague, Czech Republic 🇨🇿
             </span>
         </div>
-        <img src="../assets/images/vscht.jpg" class="cv-img" alt="University of Chemistry and Technology">
+        <img src="../assets/images/logoVSCHT_zkr_zakl.jpg" class="cv-img" alt="University of Chemistry and Technology">
     </div>
 </div>
 
