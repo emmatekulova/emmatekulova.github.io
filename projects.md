@@ -65,6 +65,9 @@ function toggleDescription(id) {
         <p>
             Presented my bachelor thesis research at the annual Student Scientific Conference alongside top student projects from across the university in my field.
         </p>
+        <div class="card-links">
+            <a href="/assets/presentations/SVK_presentation_24.pdf" class="button">Presentation</a>
+        </div>
     </div>
 </div>
 
