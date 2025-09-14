@@ -1,21 +1,154 @@
 ---
 layout: page
 ---
+
+<style>
+  .profile-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    padding: 3rem 1.25rem 1.5rem;
+    border: 2px solid var(--border-color);
+    border-radius: 0.5rem;
+    background: var(--content-bg-color);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+  }
+
+  .profile-section::before {
+    position: absolute;
+    top: 0.4rem;
+    left: 1.5rem;
+    font-family: monospace;
+    color: var(--primary-color);
+    font-weight: bold;
+    background-color: var(--content-bg-color);
+    padding: 0 0.5rem;
+  }
+
+  .profile-section::after {
+    position: absolute;
+    bottom: 0.2rem;
+    right: 1.5rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    background-color: var(--content-bg-color);
+    padding: 0 0.5rem;
+  }
+
+  .profile-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1.5rem;
+  }
+
+  .profile-image {
+    width: 11rem;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .profile-content {
+    flex: 1;
+    min-width: 20rem;
+  }
+
+  /* Social links styling */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8rem;
+    gap: 0.8rem;
+  }
+
+  .social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    // background-color: var(--code-bg-color);
+    color: var(--text-color);
+    fill: var(--code-text-color);
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    border: 0px solid var(--border-color);
+  }
+
+  .social-link svg {
+    stroke: var(--text-color);
+  }
+
+  .social-link:hover svg {
+    stroke: var(--primary-color);
+    transition: all 0.2s ease;
+  }
+
+
+  .social-icon {
+    font-size: 1rem;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .profile-section {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .profile-left {
+      margin-right: 0;
+      margin-bottom: 1.5rem;
+    }
+
+    .profile-content {
+      min-width: auto;
+    }
+  }
+</style>
+
 <div class="profile-section">
   <div class="profile-left">
     <img src="assets/images/profile.jpg" class="profile-image" alt="Profile Image">
+    <!-- ! the svg are copied manually from assets/icons/<filename>.svg -->
     <div class="social-links">
       <a href="https://linkedin.com/in/emma-tekulova/" class="social-link" target="_blank" aria-label="LinkedIn">
-        <img src="assets/icons/brand-linkedin.svg" alt="LinkedIn" width="24" height="24">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M8 11v5" />
+          <path d="M8 8v.01" />
+          <path d="M12 16v-5" />
+          <path d="M16 16v-3a2 2 0 1 0 -4 0" />
+          <path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" /></svg>
       </a>
       <a href="mailto:emmateki@gmail.com" class="social-link" aria-label="Email">
-        <img src="assets/icons/mail.svg" alt="Email" width="24" height="24">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="icon icon-tabler icons-tabler-outline icon-tabler-mail">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+          <path d="M3 7l9 6l9 -6" /></svg>
       </a>
       <a href="https://github.com/emmatekulova" class="social-link" aria-label="GitHub">
-        <img src="assets/icons/brand-github.svg" alt="GitHub" width="24" height="24">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+          </svg>
       </a>
-
+    </div>
   </div>
+
+  
 
   <div class="profile-content">
     <!-- <h3>About Me</h3> -->
