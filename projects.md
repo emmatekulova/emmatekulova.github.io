@@ -26,6 +26,29 @@ function toggleDescription(id) {
 
 <div class="card" onclick="toggleDescription('efmevDesc')">
     <div class="card-header">
+        <h3>ETHGlobal</h3>
+        <div class="card-meta">
+            Buenos Aires, Argentina 🇦🇷 • 11/2025 • 
+        </div>
+    </div>
+    <p class="card-tags">
+        <span class="tag">Blockchain</span>
+        <span class="tag">Data analysis</span>
+
+        <span class="tag">Ethereum</span>
+    </p>
+    <div id="efmevDesc" style="display: none;">
+        <p>
+            TBD
+        </p>
+        <div class="card-links">
+            <a href="https://ethglobal.com/showcase/wifi-radar-jsqac" class="button" target="_blank">Our Project</a>
+        </div>
+    </div>
+</div>
+
+<div class="card" onclick="toggleDescription('efmevDesc')">
+    <div class="card-header">
         <h3>Ethereum Foundation Research Challenge x TUM Blockchain Conference</h3>
         <div class="card-meta">
             Munich, Germany 🇩🇪 • 12/09/2025 • 

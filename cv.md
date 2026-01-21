@@ -90,13 +90,26 @@ order: 1
 
 
 ### Work Experience
+<div class="cv-entry">
+    <div class="cv-heading">
+        <div class="cv-heading-text">
+            <strong>Chemoinformatics AI/ML Intern</strong><br>
+            <span class="cv-subheading">
+                <a href="https://www.cvrez.cz/en">MSD</a> • 02/2026 – Present<br>
+                Prague, Czech Republic 🇨🇿
+            </span>
+        </div>
+        <img src="../assets/images/MSD.jpg" class="cv-img" alt="Nuclear Research Institute">
+    </div>
+    
+</div>
 
 <div class="cv-entry">
     <div class="cv-heading">
         <div class="cv-heading-text">
             <strong>Junior Scientific Researcher – Computer Vision Focus</strong><br>
             <span class="cv-subheading">
-                <a href="https://www.cvrez.cz/en">Nuclear Research Institute - Research Centre Řež</a> • 08/2023 – Present<br>
+                <a href="https://www.cvrez.cz/en">Nuclear Research Institute - Research Centre Řež</a> • 08/2023 – 02/2026<br>
                 Prague, Czech Republic 🇨🇿
             </span>
         </div>
