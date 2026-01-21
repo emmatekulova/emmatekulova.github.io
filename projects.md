@@ -34,7 +34,6 @@ function toggleDescription(id) {
     <p class="card-tags">
         <span class="tag">Blockchain</span>
         <span class="tag">Data analysis</span>
-
         <span class="tag">Ethereum</span>
     </p>
     <div id="efmevDesc" style="display: none;">
