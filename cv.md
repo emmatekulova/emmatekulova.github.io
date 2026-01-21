@@ -95,7 +95,7 @@ order: 1
         <div class="cv-heading-text">
             <strong>Chemoinformatics AI/ML Intern</strong><br>
             <span class="cv-subheading">
-                <a href="https://www.cvrez.cz/en">MSD</a> • 02/2026 – Present<br>
+                <a href="https://www.msd.cz/cs/">MSD</a> • 02/2026 – Present<br>
                 Prague, Czech Republic 🇨🇿
             </span>
         </div>
