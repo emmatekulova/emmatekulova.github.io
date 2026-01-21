@@ -101,8 +101,8 @@ order: 1
         </div>
         <img src="../assets/images/msd.png" class="cv-img" alt="MSD">
     </div>
-    
-</div> TBD
+    TBD
+</div> 
 
 <div class="cv-entry">
     <div class="cv-heading">
@@ -115,7 +115,9 @@ order: 1
         </div>
         <img src="../assets/images/cvr.jpg" class="cv-img" alt="Nuclear Research Institute">
     </div>
-</div>    In this role, I develop computer vision and machine learning solutions to accelerate analysis and support decision-making in research applications.
+     In this role, I develop computer vision and machine learning solutions to accelerate analysis and support decision-making in research applications.
+
+</div> 
 
 
 <div class="cv-entry">
