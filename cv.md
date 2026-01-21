@@ -99,10 +99,10 @@ order: 1
                 Prague, Czech Republic 🇨🇿
             </span>
         </div>
-        <img src="../assets/images/MSD.jpg" class="cv-img" alt="Nuclear Research Institute">
+        <img src="../assets/images/msd.png" class="cv-img" alt="MSD">
     </div>
     
-</div>
+</div> TBD
 
 <div class="cv-entry">
     <div class="cv-heading">
@@ -115,8 +115,8 @@ order: 1
         </div>
         <img src="../assets/images/cvr.jpg" class="cv-img" alt="Nuclear Research Institute">
     </div>
-    In this role, I develop computer vision and machine learning solutions to accelerate analysis and support decision-making in research applications.
-</div>
+</div>    In this role, I develop computer vision and machine learning solutions to accelerate analysis and support decision-making in research applications.
+
 
 <div class="cv-entry">
     <div class="cv-heading">
