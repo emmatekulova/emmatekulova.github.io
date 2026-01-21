@@ -24,7 +24,7 @@ function toggleDescription(id) {
 
 <div class="projects-section">
 
-<div class="card" onclick="toggleDescription('efmevDesc')">
+<div class="card" onclick="toggleDescription('ethglobalDesc')">
     <div class="card-header">
         <h3>ETHGlobal</h3>
         <div class="card-meta">
@@ -36,7 +36,7 @@ function toggleDescription(id) {
         <span class="tag">Data analysis</span>
         <span class="tag">Ethereum</span>
     </p>
-    <div id="efmevDesc" style="display: none;">
+    <div id="ethglobalDesc" style="display: none;">
         <p>
             TBD
         </p>
