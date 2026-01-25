@@ -33,9 +33,10 @@ Through this work, I learned how to collect and process data in close collaborat
 <br>
 ---
 
+<br>
 
-### Nanoindent growth measurements web app
-
+### Nanoindent growth measurements + web app
+![Nanoindent growth measurement preview](/assets/images/vertex.png)
 This Python-based project focuses on processing image pairs—typically “before” and “after” shots—to analyze changes in a grid-like structure. It calculates the elongation and width differences of grid elements between the two images, providing insights into material deformation. The final work was integrated into a web-app.
 
 The project was developed as part of my work at the Nuclear Research Institute in Řež and aims to assist in nanoindentation experiments through automated analysis.
@@ -52,7 +53,7 @@ The project was developed as part of my work at the Nuclear Research Institute i
 <br>
 
 ### Racemization of n-Helicenes
-
+![Racemization of n-Helicenes](/assets/images/uochb.png)
 I worked on the racemization properties of several helicenes, including <b>pentahelicene</b>, <b>hexahelicene</b>, <b>heptahelicene</b>, and <b>dinaphtho[5]helicene</b>. My research focused on calculating <b>racemization barriers</b>, identifying <b>transition states</b>, and analyzing <b>IR spectra</b>.
 
 Along the way, I gained experience with tools like <b>Gaussian</b>, <b>VMD</b>, <b>Avogadro</b> and <b>QuantumATK</b> for molecular modeling and simulation.

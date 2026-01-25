@@ -69,6 +69,45 @@ $dark-primary-alt: #e69875;
   --danger-title-color: #b52b27;
 }
 
+[data-theme="dark"] {
+  /* Base backgrounds → green-tinted dark */
+  --bg-color: #0f1b15;
+  --bg-color-alt: #13241c;
+  --header-bg-color: #102019;
+  --content-bg-color: #142820;
+
+  --text-color: #e6f5ee;
+  --border-color: #244336;
+
+  /* Primary accent → richer green */
+  --primary-color: #34d187;
+  --primary-color-alt: #2bb06f;
+
+  --code-bg-color: #13241c;
+
+  /* Table colors → clearly green */
+  --table-alt-row-bg: rgba(52, 209, 135, 0.06);
+  --table-header-bg: rgba(52, 209, 135, 0.22);
+  --table-header-text: #eafff3;
+  --table-hover-bg: rgba(52, 209, 135, 0.25);
+
+  /* Info callout → strong emerald */
+  --info-bg-color: #0f2e22;
+  --info-border-color: #34d187;
+  --info-title-color: #6af0b4;
+
+  /* Warning stays warm */
+  --warning-bg-color: #332c21;
+  --warning-border-color: #f0ad4e;
+  --warning-title-color: #ffba4d;
+
+  /* Danger stays red */
+  --danger-bg-color: #362626;
+  --danger-border-color: #d9534f;
+  --danger-title-color: #ff6b68;
+}
+
+
 [data-theme="dark_old"] {
   --bg-color: #{$dark-bg};
   --bg-color-alt: #{$dark-bg-alt};
@@ -102,39 +141,3 @@ $dark-primary-alt: #e69875;
   --danger-title-color: #ff6b68;
 }
 
-
-[data-theme="dark"] {
-  --bg-color: #{$dark-bg};
-  --bg-color-alt: #{$dark-bg-alt};
-  --header-bg-color: #{$dark-header-bg};
-  --content-bg-color: #{$dark-content-bg};
-  --text-color: #{$dark-text};
-  --border-color: #{$dark-border};
-
-  /* Primary accent → muted green */
-  --primary-color: #2fbf71;
-  --primary-color-alt: #249e5e;
-
-  --code-bg-color: #{$dark-bg-alt};
-
-  /* Table colors */
-  --table-alt-row-bg: rgba(255, 255, 255, 0.03);
-  --table-header-bg: rgba(47, 191, 113, 0.12); /* green-tinted header */
-  --table-header-text: #eafff3;
-  --table-hover-bg: rgba(47, 191, 113, 0.15);
-
-  /* Info callout → cool green */
-  --info-bg-color: #162922;
-  --info-border-color: #2fbf71;
-  --info-title-color: #4fdc94;
-
-  /* Warning stays warm (contrast is good) */
-  --warning-bg-color: #332c21;
-  --warning-border-color: #f0ad4e;
-  --warning-title-color: #ffba4d;
-
-  /* Danger stays red */
-  --danger-bg-color: #362626;
-  --danger-border-color: #d9534f;
-  --danger-title-color: #ff6b68;
-}
