@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 order: 3
 ---
@@ -26,7 +26,7 @@ function toggleDescription(id) {
 
 <div class="card" onclick="toggleDescription('ethglobalDesc')">
     <div class="card-header">
-        <h3>ETHGlobal</h3>
+        <h3>ETHGlobal - Hackathon</h3>
         <div class="card-meta">
             Buenos Aires, Argentina 🇦🇷 • 11/2025 • 
         </div>
@@ -38,7 +38,7 @@ function toggleDescription(id) {
     </p>
     <div id="ethglobalDesc" style="display: none;">
         <p>
-            TBD
+            I helped build WiFi-Radar, a decentralized “public good” platform that makes it easy to find and verify real Wi-Fi hotspots. Our system uses cryptographic verification and real-time testing so that every listed hotspot is accurate and trustworthy, and contributors can add new locations through a simple interactive map.
         </p>
         <div class="card-links">
             <a href="https://ethglobal.com/showcase/wifi-radar-jsqac" class="button" target="_blank">Our Project</a>

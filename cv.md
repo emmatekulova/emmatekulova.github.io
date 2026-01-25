@@ -1,6 +1,6 @@
 ---
 layout: page
-title: cv
+title: CV
 permalink: /cv/
 order: 1
 ---
@@ -43,6 +43,7 @@ order: 1
 .cv-description {
     margin-top: 0.5em;
 }
+.thin-divider { border: none; border-top: 1px solid var(--border-color); margin: 0.35em 0; height: 0; }
 </style>
 
 
@@ -89,7 +90,9 @@ order: 1
 <div style="text-align: center; margin: 15px 0;">• • •</div>
 
 
-### Work Experience
+<a id="work-experience"></a>
+### <a href="/work">Work Experience</a>
+
 <div class="cv-entry">
     <div class="cv-heading">
         <div class="cv-heading-text">
@@ -156,27 +159,29 @@ order: 1
 - Correspondence seminar focused on chemistry for high school students
 - Authored and reviewed competition problems  
   [View sample problem (PDF)](https://ksicht.natur.cuni.cz/media/rocniky/zadani/KSICHT-22-1_final.pdf)
-
----
+  
+<hr class="thin-divider">
 
 **Event Organizer – Head of Legal Team**  
 *TEDxYouth@Bratislava • Bratislava, Slovakia 🇸🇰 05/2018 – 08/2020*  
 - Oversaw licensing and compliance for event with 300+ participants
-
+<hr class="thin-divider">
 <div style="text-align: center; margin: 15px 0;">• • •</div>
 
-### Honours and Awards
+<a id="honours-and-awards"></a>
+### <a href="/projects">Honours and Awards</a>
 
 - **Student Scientific Conference** – 🇨🇿 28/11/2024 UCT *1st place*  
 - **Chemistry Olympiad – National Round** 🇸🇰 03/2022 – *5th place*  
 - **Chemiklání Chemistry Team Competition** 🇨🇿 02/2022 – *4th place* (Team Captain)
 - **Chemistry Olympiad – National Round** 🇸🇰 03/2021 – *10th place*  
 - **IBIS Biology Competition** 🇸🇰 06/2021 – *2nd place*  
-
+<hr class="thin-divider">
 
 <div style="text-align: center; margin: 15px 0;">• • •</div>
 
-### Summer Schools & Projects
+<a id="summer-schools-projects"></a>
+### <a href="/projects">Summer Schools & Projects</a>
 
 **AIProHealth Summer School**  
 *Tartu, Estonia 🇪🇪 12/08/2024 – 30/08/2024*  
@@ -184,14 +189,6 @@ order: 1
 - Developed a digital medical device prototype; secured **2nd place** in the hackathon  
 - Gained hands-on experience with EU regulations and built valuable connections  
 - [AIProHealth Program Link](https://eithealth.eu/programmes/aiprohealth/)
-
+<hr class="thin-divider">
 <div style="text-align: center; margin: 15px 0;">• • •</div>
-
-
-### [work](/work)
-For more details about the projects I've worked on, visit the work page.
-
-
-
-
 
