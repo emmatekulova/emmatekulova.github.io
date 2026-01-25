@@ -7,10 +7,12 @@ title: work
 
 
 ###  	Automation of nuclear material cladding coating measurement process
-
+![Coating segmentation preview](/assets/images/preview.png)
 This project began as a solution to the time-intensive manual labeling of microscopy images during my work at the Nuclear Research Institute in Řež. I later expanded it into the focus of my bachelor’s thesis. The core objective was to semi-automate the institute’s coating analysis workflow by integrating a trained U-Net model into their existing process.
 
 A major part of the work involved building a custom dataset from scratch, as no suitable dataset previously existed. The training process, model architecture, and dataset creation are all thoroughly documented in the thesis.
+
+Through this work, I learned how to collect and process data in close collaboration with domain experts, train deep learning models for image segmentation, and integrate them into practical workflows. I gained hands-on experience with Python, OpenCV, PyTorch, Docker, and a range of machine learning tools and libraries.
     
 <div class="button-container">
   <a href="https://github.com/emmatekulova/coating_detection" class="button">Github Repo</a>

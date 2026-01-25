@@ -69,7 +69,7 @@ $dark-primary-alt: #e69875;
   --danger-title-color: #b52b27;
 }
 
-[data-theme="dark"] {
+[data-theme="dark_old"] {
   --bg-color: #{$dark-bg};
   --bg-color-alt: #{$dark-bg-alt};
   --header-bg-color: #{$dark-header-bg};
@@ -97,6 +97,43 @@ $dark-primary-alt: #e69875;
   --warning-title-color: #ffba4d;
 
   /* Callout colors - Danger - dark theme */
+  --danger-bg-color: #362626;
+  --danger-border-color: #d9534f;
+  --danger-title-color: #ff6b68;
+}
+
+
+[data-theme="dark"] {
+  --bg-color: #{$dark-bg};
+  --bg-color-alt: #{$dark-bg-alt};
+  --header-bg-color: #{$dark-header-bg};
+  --content-bg-color: #{$dark-content-bg};
+  --text-color: #{$dark-text};
+  --border-color: #{$dark-border};
+
+  /* Primary accent → muted green */
+  --primary-color: #2fbf71;
+  --primary-color-alt: #249e5e;
+
+  --code-bg-color: #{$dark-bg-alt};
+
+  /* Table colors */
+  --table-alt-row-bg: rgba(255, 255, 255, 0.03);
+  --table-header-bg: rgba(47, 191, 113, 0.12); /* green-tinted header */
+  --table-header-text: #eafff3;
+  --table-hover-bg: rgba(47, 191, 113, 0.15);
+
+  /* Info callout → cool green */
+  --info-bg-color: #162922;
+  --info-border-color: #2fbf71;
+  --info-title-color: #4fdc94;
+
+  /* Warning stays warm (contrast is good) */
+  --warning-bg-color: #332c21;
+  --warning-border-color: #f0ad4e;
+  --warning-title-color: #ffba4d;
+
+  /* Danger stays red */
   --danger-bg-color: #362626;
   --danger-border-color: #d9534f;
   --danger-title-color: #ff6b68;

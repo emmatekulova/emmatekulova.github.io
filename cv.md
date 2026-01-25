@@ -99,7 +99,7 @@ order: 1
                 Prague, Czech Republic 🇨🇿
             </span>
         </div>
-        <img src="../assets/images/msd.png" class="cv-img" alt="MSD">
+        <img src="../assets/images/msd.jpg" class="cv-img" alt="MSD">
     </div>
     TBD
 </div> 
@@ -115,8 +115,7 @@ order: 1
         </div>
         <img src="../assets/images/cvr.jpg" class="cv-img" alt="Nuclear Research Institute">
     </div>
-     In this role, I develop computer vision and machine learning solutions to accelerate analysis and support decision-making in research applications.
-
+    In this role, I design and build end-to-end computer vision and machine learning pipelines, covering everything from data processing and model development to deployment and integration into research workflows.
 </div> 
 
 
@@ -162,13 +161,13 @@ order: 1
 
 **Event Organizer – Head of Legal Team**  
 *TEDxYouth@Bratislava • Bratislava, Slovakia 🇸🇰 05/2018 – 08/2020*  
-- Oversaw licensing and compliance for 300+ participants
+- Oversaw licensing and compliance for event with 300+ participants
 
 <div style="text-align: center; margin: 15px 0;">• • •</div>
 
 ### Honours and Awards
 
-- **Student Scientific Conference** – University of Chemistry and Technology, Prague 🇨🇿 28/11/2024  
+- **Student Scientific Conference** – 🇨🇿 28/11/2024 UCT *1st place*  
 - **Chemistry Olympiad – National Round** 🇸🇰 03/2022 – *5th place*  
 - **Chemiklání Chemistry Team Competition** 🇨🇿 02/2022 – *4th place* (Team Captain)
 - **Chemistry Olympiad – National Round** 🇸🇰 03/2021 – *10th place*  
@@ -177,7 +176,7 @@ order: 1
 
 <div style="text-align: center; margin: 15px 0;">• • •</div>
 
-### Conferences & Seminars
+### Summer Schools & Projects
 
 **AIProHealth Summer School**  
 *Tartu, Estonia 🇪🇪 12/08/2024 – 30/08/2024*  
