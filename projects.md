@@ -26,7 +26,7 @@ function toggleDescription(id) {
 
 <div class="card" onclick="toggleDescription('segmentation-lightning-base')">
     <div class="card-header">
-        <h3>Library - Řež</h3>
+        <h3>Library - segmentation-lightning-base</h3>
     </div>
     <p class="card-tags">
         <span class="tag">Řež</span>
