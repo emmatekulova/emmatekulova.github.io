@@ -21,8 +21,27 @@ function toggleDescription(id) {
     }
 }
 </script>
-
 <div class="projects-section">
+
+
+<div class="card" onclick="toggleDescription('segmentation-lightning-base')">
+    <div class="card-header">
+        <h3>Library - Řež</h3>
+    </div>
+    <p class="card-tags">
+        <span class="tag">Řež</span>
+        <span class="tag">Computer Vision</span>
+    </p>
+    <div id="segmentation-lightning-base" style="display: none;">
+        <p>
+            During my work in Řež, I contributed to the library for training segmentation models. I add integration of Optuna for hyperparameter tuning. 
+        </p>
+        <div class="card-links">
+            <a href="https://github.com/research-centre-rez/segmentation-lightning-base" class="button" target="_blank">Our Project</a>
+        </div>
+    </div>
+</div>
+
 
 <div class="card" onclick="toggleDescription('ethglobalDesc')">
     <div class="card-header">
