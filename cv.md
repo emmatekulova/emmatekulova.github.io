@@ -152,8 +152,14 @@ order: 1
 
 <div style="text-align: center; margin: 15px 0;">• • •</div>
 
-### Organizations
+### Volunteering
 
+**EuroPython Reviewer**  
+*03/2026* 
+- Volunteer reviewer for EuroPython 2026 conference, providing feedback to help shape the event program.
+
+  
+<hr class="thin-divider">
 **Competition Author & Reviewer**  
 *KSICHT Chemistry Competition • Prague, Czech Republic 🇨🇿 09/2022 – 12/23*  
 - Correspondence seminar focused on chemistry for high school students
