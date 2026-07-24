@@ -133,8 +133,8 @@ function toggleCategory(base) {
         <h3 id="hackathons">Hackathons</h3>
     </div>
     <ul class="category-preview" id="hackathonsPreview">
-        <li>FlexProver</li>
-        <li>ETHGlobal - Hackathon</li>
+        <li>ETHGlobal Hackathon - Cannes</li>
+        <li>ETHGlobal Hackathon - Buenos Aires</li>
         <li>Ethereum Foundation Research Challenge x TUM Blockchain Conference</li>
         <li>AIProHealth Summer School</li>
     </ul>
@@ -143,7 +143,7 @@ function toggleCategory(base) {
 
     <div class="card" onclick="toggleDescription('flexproverDesc')">
         <div class="card-header">
-            <h3>FlexProver</h3>
+            <h3>ETHGlobal Hackathon - Cannes</h3>
             <div class="card-meta">
                 ETHGlobal Cannes 2026 • 
                 <span class="project-award">🥈 2nd Place – Flare Network Prize</span>
@@ -167,7 +167,7 @@ function toggleCategory(base) {
 
     <div class="card" onclick="toggleDescription('ethglobalDesc')">
         <div class="card-header">
-            <h3>ETHGlobal - Hackathon</h3>
+            <h3>ETHGlobal Hackathon - Buenos Aires</h3>
             <div class="card-meta">
                 Buenos Aires, Argentina 🇦🇷 • 11/2025 • 
             </div>
