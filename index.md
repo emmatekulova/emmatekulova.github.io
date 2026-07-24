@@ -153,8 +153,11 @@ layout: page
   <div class="profile-content">
     <!-- <h3>About Me</h3> -->
     <p>
-    I’m currently pursuing a <b>Master’s degree in Artificial Intelligence at Charles University in Prague</b>, with a <b>Bachelor’s degree in Bioinformatics</b> and a background in <b>Chemistry</b>. I started out in the lab, but through my work as a <b>computational chemist</b>, I discovered a passion for programming and data. I gained experience working at the <b>Nuclear Research Institute</b>, where I focused on building practical solutions in the <b>computer vision</b> field. I am now starting my role as a <b>cheminformatician at MSD</b>. I enjoy working at the intersection of <b>biology, chemistry, and machine learning</b>.
+    Hi! I’m currently doing my <b>Master’s degree in Artificial Intelligence at Charles University in Prague</b>, with a <b>Bachelor’s degree in Bioinformatics</b> and a background in <b>Chemistry</b>. I started out in the lab (because for some time chemistry was my whole life :) ), but through my work as a <b>computational chemist</b>, I really found myself in coding and Python (as it is my language of choice). I gained experience working at the <b>Nuclear Research Institute</b>, where I focused on building practical solutions in the <b>computer vision</b> field and overall collaborating with other scientists and learning how to manage a project. I am now working at MSD as a <b>chemoinformatics AI/ML intern</b> -  so currently gaining knowledge also from industry :). I enjoy working at the intersection of <b>biology, chemistry, and machine learning</b>. 
+    </p>
 
+    <p>
+    Outside of that, my side quests are hackathons in the blockchain space and slowly making my way into the open source world - I also love being part of the amazing Python community, whether that's volunteering or just hanging out at a nice conference. And when I'm not doing any of that, you'll probably find me attempting to sew something a bit too ambitious, horseriding, losing at board and card games, reading way too much romance fantasy, or watching way too many tv shows.
     </p>
   </div>
 </div>
@@ -175,3 +178,7 @@ layout: page
 <div class="view-all-link">
   <a href="/blog" class="button">View All Posts</a>
 </div> -->
+
+
+
+

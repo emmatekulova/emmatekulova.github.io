@@ -77,6 +77,30 @@ function toggleDescription(id) {
 
 <h3 id="hackathons">Hackathons</h3>
 
+<div class="card" onclick="toggleDescription('flexproverDesc')">
+    <div class="card-header">
+        <h3>FlexProver</h3>
+        <div class="card-meta">
+            ETHGlobal Cannes 2026 • 
+            <span class="project-award">🥈 2nd Place – Flare Network Prize</span>
+        </div>
+    </div>
+    <p class="card-tags">
+        <span class="tag">Blockchain</span>
+        <span class="tag">Flare</span>
+        <span class="tag">TEE</span>
+        <span class="tag">Smart Accounts</span>
+    </p>
+    <div id="flexproverDesc" style="display: none;">
+        <p>
+            TBD
+        </p>
+        <div class="card-links">
+            <a href="https://ethglobal.com/showcase/flexprover-7xuf8" class="button" target="_blank">Our Project</a>
+        </div>
+    </div>
+</div>
+
 <div class="card" onclick="toggleDescription('ethglobalDesc')">
     <div class="card-header">
         <h3>ETHGlobal - Hackathon</h3>
@@ -120,30 +144,6 @@ function toggleDescription(id) {
         <div class="card-links">
             <a href="https://apply.tum-blockchain.com/ef-research-challenge" class="button" target="_blank">Program Info</a>
             <a href="https://github.com/emmatekulova/EF-Research-Challenge-x-TUM-Blockchain-Club/tree/main" class="button" target="_blank">GitHub Repo</a>
-        </div>
-    </div>
-</div>
-
-<div class="card" onclick="toggleDescription('flexproverDesc')">
-    <div class="card-header">
-        <h3>FlexProver</h3>
-        <div class="card-meta">
-            ETHGlobal Cannes 2026 • 
-            <span class="project-award">🥈 2nd Place – Flare Network Prize</span>
-        </div>
-    </div>
-    <p class="card-tags">
-        <span class="tag">Blockchain</span>
-        <span class="tag">Flare</span>
-        <span class="tag">TEE</span>
-        <span class="tag">Smart Accounts</span>
-    </p>
-    <div id="flexproverDesc" style="display: none;">
-        <p>
-            TBD
-        </p>
-        <div class="card-links">
-            <a href="https://ethglobal.com/showcase/flexprover-7xuf8" class="button" target="_blank">Our Project</a>
         </div>
     </div>
 </div>
@@ -194,6 +194,19 @@ function toggleDescription(id) {
             <a href="/assets/presentations/SVK_presentation_24.pdf" class="button">Presentation</a>
         </div>
     </div>
+</div>
+
+<div class="card" onclick="toggleDescription('emblProjectDesc')">
+  <div class="card-header"><h3>EMBL Lautenschläger Summer School – Visualising Life</h3></div>
+  <p class="card-meta">Heidelberg, Germany 🇩🇪 • 2026</p>
+  <p class="card-tags">
+        <span class="tag">Practical Focus</span>
+    </p>
+  <div id="emblProjectDesc" style="display: none; margin-top:0.75rem;">
+    <p>
+        TBD
+    </p>
+  </div>
 </div>
 
 <div class="card" onclick="toggleDescription('racemDesc')">
