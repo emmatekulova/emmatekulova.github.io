@@ -68,6 +68,9 @@ order: 1
 
 .cv-entry.clickable { cursor: pointer; }
 .cv-entry.clickable:hover .cv-heading-text strong { text-decoration: underline; }
+
+.clickable-heading { cursor: pointer; }
+.clickable-heading:hover .cv-heading-text strong { text-decoration: underline; }
 </style>
 
 <script>
@@ -272,34 +275,48 @@ function toggleDescription(id) {
 <a id="summer-schools-projects"></a>
 ### <a href="/projects">Summer Schools & Projects</a>
 
-<div class="cv-heading">
-    <div class="cv-heading-text">
-        <strong>EMBL Lautenschläger Summer School – Visualising Life</strong><br>
-        <span class="cv-subheading">Heidelberg, Germany 🇩🇪 2026</span>
+<div class="clickable-heading" onclick="toggleDescription('emblDesc')">
+    <div class="cv-heading">
+        <div class="cv-heading-text">
+            <strong>EMBL Lautenschläger Summer School – Visualising Life</strong><br>
+            <span class="cv-subheading">Heidelberg, Germany 🇩🇪 2026</span>
+        </div>
+        <img src="../assets/images/embl.jpg" class="cv-img" alt="EMBL">
     </div>
-    <img src="../assets/images/embl.jpg" class="cv-img" alt="EMBL">
 </div>
 
-- Visited numerous labs across EMBL and learned about current approaches to AI/ML in biology and imaging techniques
-- Worked on a hands-on project lead by Jess Ewald using a dataset of CellProfiler morphological features extracted from cell images treated with specific compounds  
-- Trained XGBoost and neural network models, using labels from a different dataset, to predict compound toxicity  
-
-- [EMBL Summer School Program Link](https://www.embl.org/about/info/undergraduates/events/2026-visualising-life/)
+<div id="emblDesc" class="cv-description" style="display: none;">
+    <ul>
+        <li>Visited numerous labs across EMBL and learned about current approaches to AI/ML in biology and imaging techniques</li>
+        <li>Worked on a hands-on project lead by Jess Ewald using a dataset of CellProfiler morphological features extracted from cell images treated with specific compounds</li>
+        <li>Trained XGBoost and neural network models, using labels from a different dataset, to predict compound toxicity</li>
+    </ul>
+    <div class="cv-links">
+        <a href="https://www.embl.org/about/info/undergraduates/events/2026-visualising-life/" class="button" target="_blank">Program Link</a>
+    </div>
+</div>
 <hr class="thin-divider">
-<div style="text-align: center; margin: 15px 0;">• • •</div>
 
-<div class="cv-heading">
-    <div class="cv-heading-text">
-        <strong>AIProHealth Summer School</strong><br>
-        <span class="cv-subheading">Tartu, Estonia 🇪🇪 12/08/2024 – 30/08/2024</span>
+<div class="clickable-heading" onclick="toggleDescription('aiprohealthCvDesc')">
+    <div class="cv-heading">
+        <div class="cv-heading-text">
+            <strong>AIProHealth Summer School</strong><br>
+            <span class="cv-subheading">Tartu, Estonia 🇪🇪 12/08/2024 – 30/08/2024</span>
+        </div>
+        <img src="../assets/images/AI_for_helath.jpg" class="cv-img" alt="AIProHealth">
     </div>
-    <img src="../assets/images/AI_for_helath.jpg" class="cv-img" alt="AIProHealth">
 </div>
 
-- Participated in AIProHealth summer school focused on AI innovation in healthcare  
-- Developed a digital medical device prototype; secured **2nd place** in the hackathon  
-- Gained hands-on experience with EU regulations and built valuable connections  
-- [AIProHealth Program Link](https://eithealth.eu/programmes/aiprohealth/)
+<div id="aiprohealthCvDesc" class="cv-description" style="display: none;">
+    <ul>
+        <li>Participated in AIProHealth summer school focused on AI innovation in healthcare</li>
+        <li>Developed a digital medical device prototype; secured 2nd place in the hackathon</li>
+        <li>Gained hands-on experience with EU regulations and built valuable connections</li>
+    </ul>
+    <div class="cv-links">
+        <a href="https://eithealth.eu/programmes/aiprohealth/" class="button" target="_blank">Program Link</a>
+    </div>
+</div>
 <hr class="thin-divider">
 <div style="text-align: center; margin: 15px 0;">• • •</div>
 
