@@ -44,11 +44,22 @@ order: 1
     margin-top: 0.5em;
 }
 .thin-divider { border: none; border-top: 1px solid var(--border-color); margin: 0.35em 0; height: 0; }
+
+.cv-entry.clickable { cursor: pointer; }
+.cv-entry.clickable:hover .cv-heading-text strong { text-decoration: underline; }
 </style>
+
+<script>
+function toggleDescription(id) {
+    var element = document.getElementById(id);
+    if (!element) return;
+    element.style.display = (element.style.display === 'none' || element.style.display === '') ? 'block' : 'none';
+}
+</script>
 
 
 ### Education
-<div class="cv-entry">
+<div class="cv-entry clickable" onclick="toggleDescription('mscAiDesc')">
     <div class="cv-heading">
         <div class="cv-heading-text">
             <strong>Informatics – Artificial Intelligence (MSc)</strong><br>
@@ -59,9 +70,12 @@ order: 1
         </div>
         <img src="../assets/images/charles-uni.jpg" class="cv-img" alt="Charles University">
     </div>
+    <div id="mscAiDesc" class="cv-description" style="display: none;">
+        <p>Machine Learning, Data Science, Data Structures, Complexity Theory, Bioinformatics, Computational Neuroscience, Python</p>
+    </div>
 </div>
 
-<div class="cv-entry">
+<div class="cv-entry clickable" onclick="toggleDescription('bscBioinfDesc')">
     <div class="cv-heading">
         <div class="cv-heading-text">
             <strong>Bioinformatics (BSc)</strong><br>
@@ -73,18 +87,24 @@ order: 1
         <img src="../assets/images/logoVSCHT_zkr_zakl.jpg" class="cv-img" alt="University of Chemistry and Technology">
     </div>
     Graduated summa cum laude.
+    <div id="bscBioinfDesc" class="cv-description" style="display: none;">
+        <p>Bioinformatics, Biochemistry, Molecular Biology, Biology, Computational Chemistry, Genetics, Databases, C/C++/Python, Graph Theory, Algorithms, Statistics, Automatas, </p>
+    </div>
 </div>
 
-<div class="cv-entry">
+<div class="cv-entry clickable" onclick="toggleDescription('bscChemDesc')">
     <div class="cv-heading">
         <div class="cv-heading-text">
-            <strong>Chemistry (BSc, unfinished)</strong><br>P
+            <strong>Chemistry (BSc, unfinished)</strong><br>
             <span class="cv-subheading">
                 <a href="https://www.vscht.cz/en">University of Chemistry and Technology</a> • 09/2022 – 06/2023<br>
                 Prague, Czech Republic 🇨🇿
             </span>
         </div>
         <img src="../assets/images/logoVSCHT_zkr_zakl.jpg" class="cv-img" alt="University of Chemistry and Technology">
+    </div>
+    <div id="bscChemDesc" class="cv-description" style="display: none;">
+        <p>Inorganic Chemistry, Organic Chemistry, Physical Chemistry, Analytical Chemistry, Mathematics, Python, Biochemistry</p>
     </div>
 </div>
 
@@ -94,7 +114,7 @@ order: 1
 <a id="work-experience"></a>
 ### <a href="/work">Work Experience</a>
 
-<div class="cv-entry">
+<div class="cv-entry clickable" onclick="toggleDescription('msdDesc')">
     <div class="cv-heading">
         <div class="cv-heading-text">
             <strong>Chemoinformatics AI/ML Intern</strong><br>
@@ -106,9 +126,12 @@ order: 1
         <img src="../assets/images/msd.jpg" class="cv-img" alt="MSD">
     </div>
     Building agentic systems for molecular dynamics simulations and automating steps of the drug development process. Also worked with MLOps/DevOps tooling, including Docker, deployment pipelines, and GitHub Actions.
+    <div id="msdDesc" class="cv-description" style="display: none;">
+        <p>Agentic AI Systems, Molecular Dynamics Simulations, Drug Discovery Automation, MLOps, DevOps, Docker, Deployment Pipelines, GitHub Actions, Python</p>
+    </div>
 </div> 
 
-<div class="cv-entry">
+<div class="cv-entry clickable" onclick="toggleDescription('cvrDesc')">
     <div class="cv-heading">
         <div class="cv-heading-text">
             <strong>Junior Scientific Researcher – Computer Vision Focus</strong><br>
@@ -120,6 +143,9 @@ order: 1
         <img src="../assets/images/cvr.jpg" class="cv-img" alt="Nuclear Research Institute">
     </div>
     In this role, I design and build end-to-end computer vision and machine learning pipelines, covering everything from data processing and model development to deployment and integration into research workflows.
+    <div id="cvrDesc" class="cv-description" style="display: none;">
+        <p>C</p>
+    </div>
 </div> 
 
 
@@ -135,9 +161,13 @@ order: 1
         <img src="../assets/images/uochb_logo.jpg" class="cv-img" alt="Institute of Organic Chemistry and Biochemistry">
     </div>
     Focused on exploring and analyzing the properties of diverse helicenes using tools such as Gaussian, VMD, Molden, Avogadro, and QuantumATK for simulation and examination.
+    <div id="iocbChemistDesc" class="cv-description" 
+    style="display: none;">
+        <p>TBD</p>
+    </div>
 </div>
 
-<div class="cv-entry">
+<div class="cv-entry clickable" onclick="toggleDescription('iocbInternDesc')">
     <div class="cv-heading">
         <div class="cv-heading-text">
             <strong>Organic Chemist (Internship)</strong><br>
@@ -149,6 +179,9 @@ order: 1
         <img src="../assets/images/uochb_logo.jpg" class="cv-img" alt="Institute of Organic Chemistry and Biochemistry">
     </div>
     Conducted organic synthesis focused on the preparation of specific helicenes as part of a hands-on research internship.
+    <div id="iocbInternDesc" class="cv-description" style="display: none;">
+        <p>TBD</p>
+    </div>
 </div>
 
 <div style="text-align: center; margin: 15px 0;">• • •</div>
