@@ -32,4 +32,13 @@ function toggleDescription(id) {
   </div>
 </div>
 
+<div class="card" onclick="toggleDescription('ilastikDesc')">
+  <div class="card-header"><h3>Ilastik</h3></div>
+  <p class="card-meta">TBD</p>
+  <div id="ilastikDesc" style="display: none; margin-top:0.75rem;">
+    <p>TBD</p>
+    <div class="button-container"><a href="https://www.ilastik.org/" class="button" target="_blank">Website</a></div>
+  </div>
+</div>
+
 </div>

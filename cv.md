@@ -72,12 +72,13 @@ order: 1
         </div>
         <img src="../assets/images/logoVSCHT_zkr_zakl.jpg" class="cv-img" alt="University of Chemistry and Technology">
     </div>
+    Graduated summa cum laude.
 </div>
 
 <div class="cv-entry">
     <div class="cv-heading">
         <div class="cv-heading-text">
-            <strong>Chemistry (BSc, unfinished)</strong><br>
+            <strong>Chemistry (BSc, unfinished)</strong><br>P
             <span class="cv-subheading">
                 <a href="https://www.vscht.cz/en">University of Chemistry and Technology</a> • 09/2022 – 06/2023<br>
                 Prague, Czech Republic 🇨🇿
@@ -104,7 +105,7 @@ order: 1
         </div>
         <img src="../assets/images/msd.jpg" class="cv-img" alt="MSD">
     </div>
-    TBD
+    Building agentic systems for molecular dynamics simulations and automating steps of the drug development process. Also worked with MLOps/DevOps tooling, including Docker, deployment pipelines, and GitHub Actions.
 </div> 
 
 <div class="cv-entry">
@@ -188,6 +189,16 @@ order: 1
 
 <a id="summer-schools-projects"></a>
 ### <a href="/projects">Summer Schools & Projects</a>
+
+**EMBL Lautenschläger Summer School – Visualising Life**  
+*Heidelberg, Germany 🇩🇪 2026*  
+- Visited numerous labs across EMBL and learned about current approaches to AI/ML in biology and imaging techniques
+- Worked on a hands-on project lead by Jess Ewald using a dataset of CellProfiler morphological features extracted from cell images treated with specific compounds  
+- Trained XGBoost and neural network models, using labels from a different dataset, to predict compound toxicity  
+
+- [EMBL Summer School Program Link](https://www.embl.org/about/info/undergraduates/events/2026-visualising-life/)
+<hr class="thin-divider">
+<div style="text-align: center; margin: 15px 0;">• • •</div>
 
 **AIProHealth Summer School**  
 *Tartu, Estonia 🇪🇪 12/08/2024 – 30/08/2024*  
