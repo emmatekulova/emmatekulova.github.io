@@ -219,22 +219,40 @@ function toggleDescription(id) {
 
 ### Volunteering
 
-**EuroPython Reviewer**  
-*03/2026* 
+<div class="cv-heading">
+    <div class="cv-heading-text">
+        <strong>EuroPython Reviewer</strong><br>
+        <span class="cv-subheading">03/2026</span>
+    </div>
+    <img src="../assets/images/europython.png" class="cv-img" alt="EuroPython">
+</div>
+
 - Volunteer reviewer for EuroPython 2026 conference, providing feedback to help shape the event program.
 
   
 <hr class="thin-divider">
-**Competition Author & Reviewer**  
-*KSICHT Chemistry Competition • Prague, Czech Republic 🇨🇿 09/2022 – 12/23*  
+<div class="cv-heading">
+    <div class="cv-heading-text">
+        <strong>Competition Author & Reviewer</strong><br>
+        <span class="cv-subheading">KSICHT Chemistry Competition • Prague, Czech Republic 🇨🇿 09/2022 – 12/23</span>
+    </div>
+    <img src="../assets/images/ksicht%20.png" class="cv-img" alt="KSICHT">
+</div>
+
 - Correspondence seminar focused on chemistry for high school students
 - Authored and reviewed competition problems  
   [View sample problem (PDF)](https://ksicht.natur.cuni.cz/media/rocniky/zadani/KSICHT-22-1_final.pdf)
   
 <hr class="thin-divider">
 
-**Event Organizer – Head of Legal Team**  
-*TEDxYouth@Bratislava • Bratislava, Slovakia 🇸🇰 05/2018 – 08/2020*  
+<div class="cv-heading">
+    <div class="cv-heading-text">
+        <strong>Event Organizer – Head of Legal Team</strong><br>
+        <span class="cv-subheading">TEDxYouth@Bratislava • Bratislava, Slovakia 🇸🇰 05/2018 – 08/2020</span>
+    </div>
+    <img src="../assets/images/tedx.jpg" class="cv-img" alt="TEDxYouth@Bratislava">
+</div>
+
 - Oversaw licensing and compliance for event with 300+ participants
 <hr class="thin-divider">
 <div style="text-align: center; margin: 15px 0;">• • •</div>
@@ -254,8 +272,14 @@ function toggleDescription(id) {
 <a id="summer-schools-projects"></a>
 ### <a href="/projects">Summer Schools & Projects</a>
 
-**EMBL Lautenschläger Summer School – Visualising Life**  
-*Heidelberg, Germany 🇩🇪 2026*  
+<div class="cv-heading">
+    <div class="cv-heading-text">
+        <strong>EMBL Lautenschläger Summer School – Visualising Life</strong><br>
+        <span class="cv-subheading">Heidelberg, Germany 🇩🇪 2026</span>
+    </div>
+    <img src="../assets/images/embl.jpg" class="cv-img" alt="EMBL">
+</div>
+
 - Visited numerous labs across EMBL and learned about current approaches to AI/ML in biology and imaging techniques
 - Worked on a hands-on project lead by Jess Ewald using a dataset of CellProfiler morphological features extracted from cell images treated with specific compounds  
 - Trained XGBoost and neural network models, using labels from a different dataset, to predict compound toxicity  
@@ -264,8 +288,14 @@ function toggleDescription(id) {
 <hr class="thin-divider">
 <div style="text-align: center; margin: 15px 0;">• • •</div>
 
-**AIProHealth Summer School**  
-*Tartu, Estonia 🇪🇪 12/08/2024 – 30/08/2024*  
+<div class="cv-heading">
+    <div class="cv-heading-text">
+        <strong>AIProHealth Summer School</strong><br>
+        <span class="cv-subheading">Tartu, Estonia 🇪🇪 12/08/2024 – 30/08/2024</span>
+    </div>
+    <img src="../assets/images/AI_for_helath.jpg" class="cv-img" alt="AIProHealth">
+</div>
+
 - Participated in AIProHealth summer school focused on AI innovation in healthcare  
 - Developed a digital medical device prototype; secured **2nd place** in the hackathon  
 - Gained hands-on experience with EU regulations and built valuable connections  

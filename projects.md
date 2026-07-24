@@ -112,6 +112,30 @@ function toggleDescription(id) {
     </div>
 </div>
 
+<div class="card" onclick="toggleDescription('flexproverDesc')">
+    <div class="card-header">
+        <h3>FlexProver</h3>
+        <div class="card-meta">
+            ETHGlobal Cannes 2026 • 
+            <span class="project-award">🥈 2nd Place – Flare Network Prize</span>
+        </div>
+    </div>
+    <p class="card-tags">
+        <span class="tag">Blockchain</span>
+        <span class="tag">Flare</span>
+        <span class="tag">TEE</span>
+        <span class="tag">Smart Accounts</span>
+    </p>
+    <div id="flexproverDesc" style="display: none;">
+        <p>
+            TBD
+        </p>
+        <div class="card-links">
+            <a href="https://ethglobal.com/showcase/flexprover-7xuf8" class="button" target="_blank">Our Project</a>
+        </div>
+    </div>
+</div>
+
 <div class="card" onclick="toggleDescription('aiprohealthDesc')">
     <div class="card-header">
         <h3>AIProHealth Summer School</h3>
