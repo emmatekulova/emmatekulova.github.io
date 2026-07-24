@@ -6,9 +6,19 @@ order: 3
 ---
 
 <style>
+.card { cursor: pointer; }
 .card:hover .card-header h3 {
     text-decoration: underline;
 }
+.work-card-image {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.projects-section > h3 { margin-top: 2rem; }
+.projects-section > h3:first-of-type { margin-top: 0; }
 </style>
 
 <script>
@@ -23,6 +33,29 @@ function toggleDescription(id) {
 </script>
 <div class="projects-section">
 
+<h3 id="rez">Řež – Nuclear Research Institute</h3>
+
+<div class="card" onclick="toggleDescription('coatingDesc')">
+  <img class="work-card-image" src="/assets/images/preview.png" alt="Coating segmentation preview">
+  <div class="card-header"><h3>Automation of nuclear material cladding coating measurement process</h3></div>
+  <p class="card-meta">Nuclear Research Institute • Bachelor's thesis work</p>
+  <div id="coatingDesc" style="display: none; margin-top:0.75rem;">
+    <p>This project began as a solution to the time-intensive manual labeling of microscopy images during my work at the Nuclear Research Institute in Řež. I later expanded it into the focus of my bachelor's thesis. The core objective was to semi-automate the institute's coating analysis workflow by integrating a trained U-Net model into their existing process.</p>
+    <p>A major part of the work involved building a custom dataset from scratch, as no suitable dataset previously existed. The training process, model architecture, and dataset creation are all thoroughly documented in the thesis.</p>
+    <p>Through this work, I learned how to collect and process data in close collaboration with domain experts, train deep learning models for image segmentation, and integrate them into practical workflows. I gained hands-on experience with Python, OpenCV, PyTorch, Docker, and a range of machine learning tools and libraries.</p>
+    <div class="button-container"><a href="https://github.com/emmatekulova/coating_detection" class="button">Github Repo</a> <a href="https://github.com/emmatekulova/Automation_of_coating_measurement_process" class="button">Bachelor Thesis</a></div>
+  </div>
+</div>
+
+<div class="card" onclick="toggleDescription('nanoDesc')">
+  <img class="work-card-image" src="/assets/images/vertex.png" alt="Nanoindent growth measurement preview">
+  <div class="card-header"><h3>Nanoindent growth measurements + web app</h3></div>
+  <p class="card-meta">Measurement process automation • web app </p>
+  <div id="nanoDesc" style="display: none; margin-top:0.75rem;">
+    <p>This Python-based project focuses on processing image pairs—typically "before" and "after" shots—to analyze changes in a grid-like structure. It calculates the elongation and width differences of grid elements between the two images, providing insights into material deformation. The final work was integrated into a web-app.</p>
+    <div class="button-container"><a href="https://github.com/emmatekulova/nanoindent_growth_measurments/" class="button">Github Repo</a></div>
+  </div>
+</div>
 
 <div class="card" onclick="toggleDescription('segmentation-lightning-base')">
     <div class="card-header">
@@ -42,6 +75,7 @@ function toggleDescription(id) {
     </div>
 </div>
 
+<h3 id="hackathons">Hackathons</h3>
 
 <div class="card" onclick="toggleDescription('ethglobalDesc')">
     <div class="card-header">
@@ -86,28 +120,6 @@ function toggleDescription(id) {
         <div class="card-links">
             <a href="https://apply.tum-blockchain.com/ef-research-challenge" class="button" target="_blank">Program Info</a>
             <a href="https://github.com/emmatekulova/EF-Research-Challenge-x-TUM-Blockchain-Club/tree/main" class="button" target="_blank">GitHub Repo</a>
-        </div>
-    </div>
-</div>
-
-<div class="card" onclick="toggleDescription('sscDesc')">
-    <div class="card-header">
-        <h3>Student Scientific Conference</h3>
-        <div class="card-meta">
-            University of Chemistry and Technology, Prague 🇨🇿 • 28/11/2024 
-            <span class="project-award">🥇 1st Place</span>
-        </div>
-    </div>
-    <p class="card-tags">
-        <span class="tag">Scientific Presentation</span>
-        <span class="tag">Bachelor Thesis</span>
-    </p>
-    <div id="sscDesc" style="display: none;">
-        <p>
-            Presented my bachelor thesis research at the annual Student Scientific Conference alongside top student projects from across the university in my field.
-        </p>
-        <div class="card-links">
-            <a href="/assets/presentations/SVK_presentation_24.pdf" class="button">Presentation</a>
         </div>
     </div>
 </div>
@@ -160,6 +172,39 @@ function toggleDescription(id) {
     </div>
 </div>
 
+<h3 id="other">Academic & Other</h3>
+
+<div class="card" onclick="toggleDescription('sscDesc')">
+    <div class="card-header">
+        <h3>Student Scientific Conference</h3>
+        <div class="card-meta">
+            University of Chemistry and Technology, Prague 🇨🇿 • 28/11/2024 
+            <span class="project-award">🥇 1st Place</span>
+        </div>
+    </div>
+    <p class="card-tags">
+        <span class="tag">Scientific Presentation</span>
+        <span class="tag">Bachelor Thesis</span>
+    </p>
+    <div id="sscDesc" style="display: none;">
+        <p>
+            Presented my bachelor thesis research at the annual Student Scientific Conference alongside top student projects from across the university in my field.
+        </p>
+        <div class="card-links">
+            <a href="/assets/presentations/SVK_presentation_24.pdf" class="button">Presentation</a>
+        </div>
+    </div>
 </div>
 
+<div class="card" onclick="toggleDescription('racemDesc')">
+  <img class="work-card-image" src="/assets/images/uochb2.png" alt="Racemization of n-Helicenes">
+  <div class="card-header"><h3>Racemization of n-Helicenes</h3></div>
+  <p class="card-meta">Computational chemistry: transition states, IR spectra</p>
+  <div id="racemDesc" style="display: none; margin-top:0.75rem;">
+    <p>I worked on the racemization properties of several helicenes, including <b>pentahelicene</b>, <b>hexahelicene</b>, <b>heptahelicene</b>, and <b>dinaphtho[5]helicene</b>. My research focused on calculating <b>racemization barriers</b>, identifying <b>transition states</b>, and analyzing <b>IR spectra</b>.</p>
+    <p>Along the way, I gained experience with tools like <b>Gaussian</b>, <b>VMD</b>, <b>Avogadro</b> and <b>QuantumATK</b> for molecular modeling and simulation.</p>
+    <div class="button-container"><a href="/assets/presentations/uochb_presentation.pdf" class="button">Mid-Project Presentation</a></div>
+  </div>
+</div>
 
+</div>

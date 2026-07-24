@@ -136,7 +136,7 @@ function toggleDescription(id) {
 
 
 <a id="work-experience"></a>
-### <a href="/work">Work Experience</a>
+### <a href="/projects/#rez">Work Experience</a>
 
 <div class="cv-entry clickable" onclick="toggleDescription('msdDesc')">
     <div class="cv-heading">
