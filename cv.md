@@ -41,8 +41,29 @@ order: 1
 }
 
 .cv-description {
-    margin-top: 0.5em;
+    margin-top: 0.75em;
+    padding: 0.75em 1em;
+    background-color: var(--bg-color-alt);
+    border-left: 3px solid var(--primary-color);
+    border-radius: 0 6px 6px 0;
 }
+.cv-description p:last-child,
+.cv-description ul:last-child { margin-bottom: 0; }
+.cv-description ul { margin: 0; padding-left: 1.2em; }
+.cv-description li { margin-bottom: 0.4em; }
+.cv-description .cv-links { margin-top: 0.75em; }
+
+.cv-skill-tag {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    margin: 0 0.4rem 0.4rem 0;
+    border-radius: 0.3rem;
+    background-color: var(--content-bg-color);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 0.8rem;
+}
+
 .thin-divider { border: none; border-top: 1px solid var(--border-color); margin: 0.35em 0; height: 0; }
 
 .cv-entry.clickable { cursor: pointer; }
@@ -71,7 +92,7 @@ function toggleDescription(id) {
         <img src="../assets/images/charles-uni.jpg" class="cv-img" alt="Charles University">
     </div>
     <div id="mscAiDesc" class="cv-description" style="display: none;">
-        <p>Machine Learning, Data Science, Data Structures, Complexity Theory, Bioinformatics, Computational Neuroscience, Python</p>
+        <span class="cv-skill-tag">Machine Learning</span><span class="cv-skill-tag">Data Science</span><span class="cv-skill-tag">Data Structures</span><span class="cv-skill-tag">Complexity Theory</span><span class="cv-skill-tag">Bioinformatics</span><span class="cv-skill-tag">Computational Neuroscience</span><span class="cv-skill-tag">Python</span>
     </div>
 </div>
 
@@ -88,7 +109,7 @@ function toggleDescription(id) {
     </div>
     Graduated summa cum laude.
     <div id="bscBioinfDesc" class="cv-description" style="display: none;">
-        <p>Bioinformatics, Biochemistry, Molecular Biology, Biology, Computational Chemistry, Genetics, Databases, C/C++/Python, Graph Theory, Algorithms, Statistics, Automatas, </p>
+        <span class="cv-skill-tag">Bioinformatics</span><span class="cv-skill-tag">Biochemistry</span><span class="cv-skill-tag">Molecular Biology</span><span class="cv-skill-tag">Biology</span><span class="cv-skill-tag">Computational Chemistry</span><span class="cv-skill-tag">Genetics</span><span class="cv-skill-tag">Databases</span><span class="cv-skill-tag">C/C++/Python</span><span class="cv-skill-tag">Graph Theory</span><span class="cv-skill-tag">Algorithms</span><span class="cv-skill-tag">Statistics</span><span class="cv-skill-tag">Automata</span>
     </div>
 </div>
 
@@ -104,7 +125,7 @@ function toggleDescription(id) {
         <img src="../assets/images/logoVSCHT_zkr_zakl.jpg" class="cv-img" alt="University of Chemistry and Technology">
     </div>
     <div id="bscChemDesc" class="cv-description" style="display: none;">
-        <p>Inorganic Chemistry, Organic Chemistry, Physical Chemistry, Analytical Chemistry, Mathematics, Python, Biochemistry</p>
+        <span class="cv-skill-tag">Inorganic Chemistry</span><span class="cv-skill-tag">Organic Chemistry</span><span class="cv-skill-tag">Physical Chemistry</span><span class="cv-skill-tag">Analytical Chemistry</span><span class="cv-skill-tag">Mathematics</span><span class="cv-skill-tag">Python</span><span class="cv-skill-tag">Biochemistry</span>
     </div>
 </div>
 
@@ -127,7 +148,7 @@ function toggleDescription(id) {
     </div>
     Building agentic systems for molecular dynamics simulations and automating steps of the drug development process. Also worked with MLOps/DevOps tooling, including Docker, deployment pipelines, and GitHub Actions.
     <div id="msdDesc" class="cv-description" style="display: none;">
-        <p>Agentic AI Systems, Molecular Dynamics Simulations, Drug Discovery Automation, MLOps, DevOps, Docker, Deployment Pipelines, GitHub Actions, Python</p>
+        <span class="cv-skill-tag">Agentic AI Systems</span><span class="cv-skill-tag">Molecular Dynamics Simulations</span><span class="cv-skill-tag">Drug Discovery Automation</span><span class="cv-skill-tag">MLOps</span><span class="cv-skill-tag">DevOps</span><span class="cv-skill-tag">Docker</span><span class="cv-skill-tag">Deployment Pipelines</span><span class="cv-skill-tag">GitHub Actions</span><span class="cv-skill-tag">Python</span>
     </div>
 </div> 
 
@@ -144,7 +165,17 @@ function toggleDescription(id) {
     </div>
     In this role, I design and build end-to-end computer vision and machine learning pipelines, covering everything from data processing and model development to deployment and integration into research workflows.
     <div id="cvrDesc" class="cv-description" style="display: none;">
-        <p>C</p>
+        <ul>
+            <li>Defined system requirements in collaboration with domain experts and translated them into implementable ML solutions.</li>
+            <li>Developed and evaluated multiple approaches, going from rule-based methods to a CNN-based image analysis pipeline (Python, PyTorch, OpenCV), currently used in practice.</li>
+            <li>Led data labeling efforts by organizing and managing a team of annotators.</li>
+            <li>Introduced ML workflows to domain experts, enabling integration of AI methods into existing scientific processes.</li>
+            <li>Result: the system remains in active use, serving as the foundation for current development. Received 1st place at the Student Scientific Conference (VŠCHT) for a Bachelor's thesis.</li>
+        </ul>
+        <div class="cv-links">
+            <a href="https://github.com/emmatekulova/coating_detectio" class="button" target="_blank">GitHub</a>
+            <a href="https://github.com/research-centre-rez/segmentation-lightning-base" class="button" target="_blank">segmentation-lightning-base</a>
+        </div>
     </div>
 </div> 
 
