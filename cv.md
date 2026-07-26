@@ -97,7 +97,7 @@ window.addEventListener('DOMContentLoaded', function() {
         <div class="cv-heading-text">
             <strong>Informatics – Artificial Intelligence (MSc)</strong><br>
             <span class="cv-subheading">
-                <a href="https://www.cuni.cz/en">Charles University</a> • 09/2025 – 06/2027<br>
+                <a href="https://www.cuni.cz/en">Charles University</a> • 09/2025 – present<br>
                 Prague, Czech Republic 🇨🇿
             </span>
         </div>
