@@ -28,6 +28,8 @@ order: 3
     gap: 0.6rem;
 }
 .category-header h3 { margin: 0; }
+.category-header h3 a { color: inherit; text-decoration: none; }
+.category-header h3 a:hover { text-decoration: underline; }
 .category-header:hover h3 { text-decoration: underline; }
 
 .category-arrow {
@@ -86,13 +88,37 @@ function openFromSummary(event, base, descId) {
         desc.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
 }
+
+var descToCategory = {
+    coatingDesc: 'rez', nanoDesc: 'rez', 'segmentation-lightning-base': 'rez',
+    rdmoDesc: 'opensource', ilastikDesc: 'opensource',
+    flexproverDesc: 'hackathons', ethglobalDesc: 'hackathons', efmevDesc: 'hackathons', aiprohealthDesc: 'hackathons',
+    sscDesc: 'other', emblProjectDesc: 'other', racemDesc: 'other'
+};
+
+window.addEventListener('DOMContentLoaded', function() {
+    var id = window.location.hash.replace('#', '');
+    var base = descToCategory[id];
+    if (!base) return;
+    var cards = document.getElementById(base + 'Cards');
+    var preview = document.getElementById(base + 'Preview');
+    var arrow = document.getElementById(base + 'Arrow');
+    if (cards) cards.style.display = 'block';
+    if (preview) preview.style.display = 'none';
+    if (arrow) arrow.textContent = '▾';
+    var desc = document.getElementById(id);
+    if (desc) {
+        desc.style.display = 'block';
+        desc.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+});
 </script>
 <div class="projects-section">
 
 <div class="category">
     <div class="category-header" onclick="toggleCategory('rez')">
         <span class="category-arrow" id="rezArrow">▸</span>
-        <h3 id="rez">Řež – Nuclear Research Institute</h3>
+        <h3 id="rez"><a href="/cv/#cvrDesc" target="_blank">Řež – Nuclear Research Institute</a></h3>
     </div>
     <ul class="category-preview" id="rezPreview">
         <li onclick="openFromSummary(event, 'rez', 'coatingDesc')">Automation of nuclear material cladding coating measurement process</li>
@@ -321,6 +347,7 @@ function openFromSummary(event, base, descId) {
             </p>
             <div class="card-links">
                 <a href="/assets/presentations/SVK_presentation_24.pdf" class="button">Presentation</a>
+                <a href="/cv/#cvrDesc" class="button">CV</a>
             </div>
         </div>
     </div>
@@ -345,7 +372,7 @@ function openFromSummary(event, base, descId) {
       <div id="racemDesc" style="display: none; margin-top:0.75rem;">
         <p>I worked on the racemization properties of several helicenes, including <b>pentahelicene</b>, <b>hexahelicene</b>, <b>heptahelicene</b>, and <b>dinaphtho[5]helicene</b>. My research focused on calculating <b>racemization barriers</b>, identifying <b>transition states</b>, and analyzing <b>IR spectra</b>.</p>
         <p>Along the way, I gained experience with tools like <b>Gaussian</b>, <b>VMD</b>, <b>Avogadro</b> and <b>QuantumATK</b> for molecular modeling and simulation.</p>
-        <div class="button-container"><a href="/assets/presentations/uochb_presentation.pdf" class="button">Mid-Project Presentation</a></div>
+        <div class="button-container"><a href="/assets/presentations/uochb_presentation.pdf" class="button">Mid-Project Presentation</a> <a href="/cv/#iocbChemistDesc" class="button">CV</a></div>
       </div>
     </div>
 

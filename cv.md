@@ -79,6 +79,15 @@ function toggleDescription(id) {
     if (!element) return;
     element.style.display = (element.style.display === 'none' || element.style.display === '') ? 'block' : 'none';
 }
+
+window.addEventListener('DOMContentLoaded', function() {
+    var id = window.location.hash.replace('#', '');
+    var desc = document.getElementById(id);
+    if (desc && desc.classList.contains('cv-description')) {
+        desc.style.display = 'block';
+        desc.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+});
 </script>
 
 
@@ -110,7 +119,8 @@ function toggleDescription(id) {
         </div>
         <img src="../assets/images/logoVSCHT_zkr_zakl.jpg" class="cv-img" alt="University of Chemistry and Technology">
     </div>
-    Graduated summa cum laude.
+    Graduated summa cum laude.<br>
+    Bachelor's thesis: <a href="/projects/#coatingDesc" target="_blank">Automation of nuclear material cladding coating measurement process</a>
     <div id="bscBioinfDesc" class="cv-description" style="display: none;">
         <span class="cv-skill-tag">Bioinformatics</span><span class="cv-skill-tag">Biochemistry</span><span class="cv-skill-tag">Molecular Biology</span><span class="cv-skill-tag">Biology</span><span class="cv-skill-tag">Computational Chemistry</span><span class="cv-skill-tag">Genetics</span><span class="cv-skill-tag">Databases</span><span class="cv-skill-tag">C/C++/Python</span><span class="cv-skill-tag">Graph Theory</span><span class="cv-skill-tag">Algorithms</span><span class="cv-skill-tag">Statistics</span><span class="cv-skill-tag">Automata</span>
     </div>
@@ -201,7 +211,7 @@ function toggleDescription(id) {
     </div>
 </div>
 
-<div class="cv-entry clickable" onclick="toggleDescription('iocbInternDesc')">
+<div class="cv-entry">
     <div class="cv-heading">
         <div class="cv-heading-text">
             <strong>Organic Chemist (Internship)</strong><br>
@@ -213,9 +223,6 @@ function toggleDescription(id) {
         <img src="../assets/images/uochb_logo.jpg" class="cv-img" alt="Institute of Organic Chemistry and Biochemistry">
     </div>
     Conducted organic synthesis focused on the preparation of specific helicenes as part of a hands-on research internship.
-    <div id="iocbInternDesc" class="cv-description" style="display: none;">
-        <p>TBD</p>
-    </div>
 </div>
 
 <div style="text-align: center; margin: 15px 0;">• • •</div>
