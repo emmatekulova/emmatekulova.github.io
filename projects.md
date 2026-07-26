@@ -128,6 +128,39 @@ function toggleCategory(base) {
 </div>
 
 <div class="category">
+    <div class="category-header" onclick="toggleCategory('opensource')">
+        <span class="category-arrow" id="opensourceArrow">▸</span>
+        <h3 id="opensource">Open Source</h3>
+    </div>
+    <ul class="category-preview" id="opensourcePreview">
+        <li>RDMO</li>
+        <li>Ilastik</li>
+    </ul>
+
+    <div class="category-cards" id="opensourceCards" style="display: none;">
+
+    <div class="card" onclick="toggleDescription('rdmoDesc')">
+      <div class="card-header"><h3>RDMO</h3></div>
+      <p class="card-meta">First open-source contribution • Darmstadt Sprints</p>
+      <div id="rdmoDesc" style="display: none; margin-top:0.75rem;">
+        <p>My first open-source contribution. I solved this issue at the sprints in Darmstadt</p>
+        <div class="button-container"><a href="https://github.com/rdmorganiser/rdmo/issues/1563#event-26612211407" class="button" target="_blank">GitHub Issue</a></div>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleDescription('ilastikDesc')">
+      <div class="card-header"><h3>Ilastik</h3></div>
+      <p class="card-meta">TBD</p>
+      <div id="ilastikDesc" style="display: none; margin-top:0.75rem;">
+        <p>TBD</p>
+        <div class="button-container"><a href="https://www.ilastik.org/" class="button" target="_blank">Website</a></div>
+      </div>
+    </div>
+
+    </div>
+</div>
+
+<div class="category">
     <div class="category-header" onclick="toggleCategory('hackathons')">
         <span class="category-arrow" id="hackathonsArrow">▸</span>
         <h3 id="hackathons">Hackathons</h3>
@@ -278,7 +311,7 @@ function toggleCategory(base) {
       <div class="card-header"><h3>EMBL Lautenschläger Summer School – Visualising Life</h3></div>
       <p class="card-meta">Heidelberg, Germany 🇩🇪 • 2026</p>
       <p class="card-tags">
-            <span class="tag">Practical Focus</span>
+            <span class="tag">Focus practical</span>
         </p>
       <div id="emblProjectDesc" style="display: none; margin-top:0.75rem;">
         <p>

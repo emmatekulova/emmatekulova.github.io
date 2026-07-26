@@ -310,8 +310,8 @@ function toggleDescription(id) {
 <div id="aiprohealthCvDesc" class="cv-description" style="display: none;">
     <ul>
         <li>Participated in AIProHealth summer school focused on AI innovation in healthcare</li>
-        <li>Developed a digital medical device prototype; secured 2nd place in the hackathon</li>
-        <li>Gained hands-on experience with EU regulations and built valuable connections</li>
+        <li>Developed a digital medical device prototype -> 2nd place in the hackathon</li>
+        <li>Gained hands-on experience with EU regulations and built valuable connections :)</li>
     </ul>
     <div class="cv-links">
         <a href="https://eithealth.eu/programmes/aiprohealth/" class="button" target="_blank">Program Link</a>
