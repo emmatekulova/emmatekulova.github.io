@@ -103,6 +103,7 @@ window.addEventListener('DOMContentLoaded', function() {
         </div>
         <img src="../assets/images/charles-uni.jpg" class="cv-img" alt="Charles University">
     </div>
+    Working in the Structural Bioinformatics Group led by David Hoksza; thesis focused on protein language models.
     <div id="mscAiDesc" class="cv-description" style="display: none;">
         <span class="cv-skill-tag">Machine Learning</span><span class="cv-skill-tag">Data Science</span><span class="cv-skill-tag">Data Structures</span><span class="cv-skill-tag">Complexity Theory</span><span class="cv-skill-tag">Bioinformatics</span><span class="cv-skill-tag">Computational Neuroscience</span><span class="cv-skill-tag">Python</span>
     </div>
