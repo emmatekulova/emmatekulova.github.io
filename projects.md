@@ -43,7 +43,8 @@ order: 3
     color: var(--secondary-text-color);
     font-size: 0.9rem;
 }
-.category-preview li { margin-bottom: 0.2em; }
+.category-preview li { margin-bottom: 0.2em; cursor: pointer; }
+.category-preview li:hover { text-decoration: underline; color: var(--primary-color); }
 
 .category-cards { margin-top: 1rem; }
 </style>
@@ -68,6 +69,23 @@ function toggleCategory(base) {
     if (preview) preview.style.display = opening ? "none" : "block";
     if (arrow) arrow.textContent = opening ? "▾" : "▸";
 }
+
+function openFromSummary(event, base, descId) {
+    event.stopPropagation();
+    var cards = document.getElementById(base + 'Cards');
+    var preview = document.getElementById(base + 'Preview');
+    var arrow = document.getElementById(base + 'Arrow');
+    if (cards && (cards.style.display === 'none' || cards.style.display === '')) {
+        cards.style.display = 'block';
+        if (preview) preview.style.display = 'none';
+        if (arrow) arrow.textContent = '▾';
+    }
+    var desc = document.getElementById(descId);
+    if (desc && (desc.style.display === 'none' || desc.style.display === '')) {
+        desc.style.display = 'block';
+        desc.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+}
 </script>
 <div class="projects-section">
 
@@ -77,9 +95,9 @@ function toggleCategory(base) {
         <h3 id="rez">Řež – Nuclear Research Institute</h3>
     </div>
     <ul class="category-preview" id="rezPreview">
-        <li>Automation of nuclear material cladding coating measurement process</li>
-        <li>Nanoindent growth measurements + web app</li>
-        <li>Library - segmentation-lightning-base</li>
+        <li onclick="openFromSummary(event, 'rez', 'coatingDesc')">Automation of nuclear material cladding coating measurement process</li>
+        <li onclick="openFromSummary(event, 'rez', 'nanoDesc')">Nanoindent growth measurements + web app</li>
+        <li onclick="openFromSummary(event, 'rez', 'segmentation-lightning-base')">Library - segmentation-lightning-base</li>
     </ul>
 
     <div class="category-cards" id="rezCards" style="display: none;">
@@ -133,8 +151,8 @@ function toggleCategory(base) {
         <h3 id="opensource">Open Source</h3>
     </div>
     <ul class="category-preview" id="opensourcePreview">
-        <li>RDMO</li>
-        <li>Ilastik</li>
+        <li onclick="openFromSummary(event, 'opensource', 'rdmoDesc')">RDMO</li>
+        <li onclick="openFromSummary(event, 'opensource', 'ilastikDesc')">Ilastik</li>
     </ul>
 
     <div class="category-cards" id="opensourceCards" style="display: none;">
@@ -166,10 +184,10 @@ function toggleCategory(base) {
         <h3 id="hackathons">Hackathons</h3>
     </div>
     <ul class="category-preview" id="hackathonsPreview">
-        <li>ETHGlobal Hackathon - Cannes</li>
-        <li>ETHGlobal Hackathon - Buenos Aires</li>
-        <li>Ethereum Foundation Research Challenge x TUM Blockchain Conference</li>
-        <li>AIProHealth Summer School</li>
+        <li onclick="openFromSummary(event, 'hackathons', 'flexproverDesc')">ETHGlobal Hackathon - Cannes</li>
+        <li onclick="openFromSummary(event, 'hackathons', 'ethglobalDesc')">ETHGlobal Hackathon - Buenos Aires</li>
+        <li onclick="openFromSummary(event, 'hackathons', 'efmevDesc')">Ethereum Foundation Research Challenge x TUM Blockchain Conference</li>
+        <li onclick="openFromSummary(event, 'hackathons', 'aiprohealthDesc')">AIProHealth Summer School</li>
     </ul>
 
     <div class="category-cards" id="hackathonsCards" style="display: none;">
@@ -278,9 +296,9 @@ function toggleCategory(base) {
         <h3 id="other">Academic &amp; Other</h3>
     </div>
     <ul class="category-preview" id="otherPreview">
-        <li>Student Scientific Conference</li>
-        <li>EMBL Lautenschläger Summer School – Visualising Life</li>
-        <li>Racemization of n-Helicenes</li>
+        <li onclick="openFromSummary(event, 'other', 'sscDesc')">Student Scientific Conference</li>
+        <li onclick="openFromSummary(event, 'other', 'emblProjectDesc')">EMBL Lautenschläger Summer School – Visualising Life</li>
+        <li onclick="openFromSummary(event, 'other', 'racemDesc')">Racemization of n-Helicenes</li>
     </ul>
 
     <div class="category-cards" id="otherCards" style="display: none;">
