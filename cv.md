@@ -183,7 +183,7 @@ window.addEventListener('DOMContentLoaded', function() {
             <li>Developed and evaluated multiple approaches, going from rule-based methods to a CNN-based image analysis pipeline (Python, PyTorch, OpenCV), currently used in practice.</li>
             <li>Led data labeling efforts by organizing and managing a team of annotators.</li>
             <li>Introduced ML workflows to domain experts, enabling integration of AI methods into existing scientific processes.</li>
-            <li>Result: the system remains in active use, serving as the foundation for current development. Received 1st place at the Student Scientific Conference (VŠCHT) for a Bachelor's thesis.</li>
+            <li>Result: the system remains in active use, serving as the foundation for current development. Received 1st place at the <a href="/projects/#sscDesc" target="_blank">Student Scientific Conference</a> (VŠCHT) for a Bachelor's thesis.</li>
         </ul>
         <div class="cv-links">
             <a href="https://github.com/emmatekulova/coating_detectio" class="button" target="_blank">GitHub</a>
@@ -204,7 +204,8 @@ window.addEventListener('DOMContentLoaded', function() {
         </div>
         <img src="../assets/images/uochb_logo.jpg" class="cv-img" alt="Institute of Organic Chemistry and Biochemistry">
     </div>
-    Focused on exploring and analyzing the properties of diverse helicenes using tools such as Gaussian, VMD, Molden, Avogadro, and QuantumATK for simulation and examination.
+    Focused on exploring and analyzing the properties of diverse helicenes using tools such as Gaussian, VMD, Molden, Avogadro, and QuantumATK for simulation and examination.<br>
+    Project: <a href="/projects/#racemDesc" target="_blank">Racemization of n-Helicenes</a>
     <div id="iocbChemistDesc" class="cv-description" 
     style="display: none;">
         <p>TBD</p>
