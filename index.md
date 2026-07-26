@@ -157,7 +157,7 @@ layout: page
     </p>
 
     <p>
-    Outside of that, my side quests are hackathons in the blockchain space and slowly making my way into the open source world - I also love being part of the amazing Python community, whether that's volunteering or just hanging out at a nice conference. And when I'm not doing any of that, you'll probably find me attempting to sew something a bit too ambitious, horseriding, losing at board and card games, reading way too much romance fantasy, or watching way too many tv shows.
+  Outside of that, my side quests include hackathons in the blockchain space and slowly making my way into the open source world. I also love being part of the amazing Python community, whether that's volunteering or just hanging out at a good conference. And when I'm not doing any of that, you'll probably find me attempting to sew something, horseback riding, playing board games, reading romance fantasy, or watching way too many TV shows.
     </p>
   </div>
 </div>
