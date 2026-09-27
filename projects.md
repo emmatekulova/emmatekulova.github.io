@@ -93,7 +93,7 @@ var descToCategory = {
     coatingDesc: 'rez', nanoDesc: 'rez', 'segmentation-lightning-base': 'rez',
     rdmoDesc: 'opensource', ilastikDesc: 'opensource',
     flexproverDesc: 'hackathons', ethglobalDesc: 'hackathons', efmevDesc: 'hackathons', aiprohealthDesc: 'hackathons',
-    sscDesc: 'other', emblProjectDesc: 'other', racemDesc: 'other'
+    plmDesc: 'other', sscDesc: 'other', emblProjectDesc: 'other', racemDesc: 'other'
 };
 
 window.addEventListener('DOMContentLoaded', function() {
@@ -194,10 +194,10 @@ window.addEventListener('DOMContentLoaded', function() {
 
     <div class="card" onclick="toggleDescription('ilastikDesc')">
       <div class="card-header"><h3>Ilastik</h3></div>
-      <p class="card-meta">TBD</p>
+      <p class="card-meta">Merged PR • Object Classification workflow</p>
       <div id="ilastikDesc" style="display: none; margin-top:0.75rem;">
-        <p>TBD</p>
-        <div class="button-container"><a href="https://www.ilastik.org/" class="button" target="_blank">Website</a></div>
+        <p>Fixed <a href="https://github.com/ilastik/ilastik/issues/2421" target="_blank">issue #2421</a> in ilastik, an interactive machine learning tool for bioimage analysis. The prediction toggle in the Object Classification workflow was getting out of sync, so I replaced it with two buttons in the same style as the Pixel Classification workflow, making the two workflows consistent.</p>
+        <div class="button-container"><a href="https://github.com/ilastik/ilastik/pull/3246" class="button" target="_blank">Pull Request</a> <a href="https://www.ilastik.org/" class="button" target="_blank">Website</a></div>
       </div>
     </div>
 
@@ -322,12 +322,21 @@ window.addEventListener('DOMContentLoaded', function() {
         <h3 id="other">Academic &amp; Other</h3>
     </div>
     <ul class="category-preview" id="otherPreview">
+        <li onclick="openFromSummary(event, 'other', 'plmDesc')">Research project – PLM reduction</li>
         <li onclick="openFromSummary(event, 'other', 'sscDesc')">Student Scientific Conference</li>
         <li onclick="openFromSummary(event, 'other', 'emblProjectDesc')">EMBL Lautenschläger Summer School – Visualising Life</li>
         <li onclick="openFromSummary(event, 'other', 'racemDesc')">Racemization of n-Helicenes</li>
     </ul>
 
     <div class="category-cards" id="otherCards" style="display: none;">
+
+    <div class="card" onclick="toggleDescription('plmDesc')">
+      <div class="card-header"><h3>Research project – PLM reduction</h3></div>
+      <p class="card-meta">TBD</p>
+      <div id="plmDesc" style="display: none; margin-top:0.75rem;">
+        <p>TBD</p>
+      </div>
+    </div>
 
     <div class="card" onclick="toggleDescription('sscDesc')">
         <div class="card-header">
@@ -360,7 +369,7 @@ window.addEventListener('DOMContentLoaded', function() {
         </p>
       <div id="emblProjectDesc" style="display: none; margin-top:0.75rem;">
         <p>
-            TBD
+            Worked on a focus practical with <a href="https://www.ebi.ac.uk/research/ewald/" target="_blank">Jess Ewald's group</a>, training small models (XGBoost and neural networks) on CellProfiler morphological features from compound-treated cell images to predict cell toxicity.
         </p>
       </div>
     </div>

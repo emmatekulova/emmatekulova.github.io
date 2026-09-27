@@ -149,20 +149,36 @@ window.addEventListener('DOMContentLoaded', function() {
 <a id="work-experience"></a>
 ### <a href="/projects/#rez">Work Experience</a>
 
+<div class="cv-entry clickable" onclick="toggleDescription('ebiDesc')">
+    <div class="cv-heading">
+        <div class="cv-heading-text">
+            <strong>Researcher – Ewald Group</strong><br>
+            <span class="cv-subheading">
+                <a href="https://www.ebi.ac.uk/research/ewald/">EMBL-EBI</a> • from 02/2027<br>
+                Cambridge, United Kingdom 🇬🇧
+            </span>
+        </div>
+        <img src="../assets/images/embl.jpg" class="cv-img" alt="EMBL-EBI">
+    </div>
+    Starting research in Jess Ewald's group at EMBL-EBI.
+    <div id="ebiDesc" class="cv-description" style="display: none;">
+    </div>
+</div> 
+
 <div class="cv-entry clickable" onclick="toggleDescription('msdDesc')">
     <div class="cv-heading">
         <div class="cv-heading-text">
             <strong>Chemoinformatics AI/ML Intern</strong><br>
             <span class="cv-subheading">
-                <a href="https://www.msd.cz/cs/">MSD</a> • 02/2026 – Present<br>
+                <a href="https://www.msd.cz/cs/">MSD</a> • 02/2026 – 02/2027<br>
                 Prague, Czech Republic 🇨🇿
             </span>
         </div>
         <img src="../assets/images/msd.jpg" class="cv-img" alt="MSD">
     </div>
-    Building agentic systems for molecular dynamics simulations and automating steps of the drug development process. Also worked with MLOps/DevOps tooling, including Docker, deployment pipelines, and GitHub Actions.
+    Building an automation pipeline for the computational drug design process and connecting it with agentic systems, so the whole workflow can be run and orchestrated by AI agents. Also working with MLOps/DevOps tooling, including Docker and deployment pipelines.
     <div id="msdDesc" class="cv-description" style="display: none;">
-        <span class="cv-skill-tag">Agentic AI Systems</span><span class="cv-skill-tag">Molecular Dynamics Simulations</span><span class="cv-skill-tag">Drug Discovery Automation</span><span class="cv-skill-tag">MLOps</span><span class="cv-skill-tag">DevOps</span><span class="cv-skill-tag">Docker</span><span class="cv-skill-tag">Deployment Pipelines</span><span class="cv-skill-tag">GitHub Actions</span><span class="cv-skill-tag">Python</span>
+        <span class="cv-skill-tag">Agentic AI Systems</span><span class="cv-skill-tag">Computational Drug Design</span><span class="cv-skill-tag">Pipeline Automation</span><span class="cv-skill-tag">Molecular Dynamics Simulations</span><span class="cv-skill-tag">MLOps</span><span class="cv-skill-tag">DevOps</span><span class="cv-skill-tag">Docker</span><span class="cv-skill-tag">Deployment Pipelines</span><span class="cv-skill-tag">Python</span>
     </div>
 </div> 
 
@@ -283,6 +299,27 @@ window.addEventListener('DOMContentLoaded', function() {
 
 <a id="summer-schools-projects"></a>
 ### <a href="/projects">Summer Schools & Projects</a>
+
+<div class="clickable-heading" onclick="toggleDescription('ilastikCvDesc')">
+    <div class="cv-heading">
+        <div class="cv-heading-text">
+            <strong>Open Source Contributor – ilastik</strong><br>
+            <span class="cv-subheading">09/2026</span>
+        </div>
+    </div>
+</div>
+
+<div id="ilastikCvDesc" class="cv-description" style="display: none;">
+    <ul>
+        <li>Contributed to ilastik, an interactive machine learning tool for bioimage analysis</li>
+        <li>Fixed the prediction toggle sync in the Object Classification workflow (merged PR)</li>
+    </ul>
+    <div class="cv-links">
+        <a href="/projects/#ilastikDesc" class="button">Project</a>
+        <a href="https://github.com/ilastik/ilastik/pull/3246" class="button" target="_blank">Pull Request</a>
+    </div>
+</div>
+<hr class="thin-divider">
 
 <div class="clickable-heading" onclick="toggleDescription('emblDesc')">
     <div class="cv-heading">
